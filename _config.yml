@@ -25,7 +25,7 @@ description: Show my life and shining style!
 navbar-links:
   关于我: "aboutme"
   文章:
-    - Techblog: "http://www.kaixinhuang.com/"
+    - Techblog: "Techblog/"
     - Life: "http://www.baidu.com/"
     - Beautiful Jekyll: "http://kaixinhuang.com/"
     # - Learn markdown: "http://www.markdowntutorial.com/"
@@ -36,7 +36,7 @@ navbar-links:
     - Assignment: "Assignment/"
     - Others: "OTHERS/"
   
-  个人主页: "http://kaixinhuang.com"
+  个人主页: "http://www.Meditator-hkx.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
