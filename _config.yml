@@ -25,8 +25,8 @@ description: Show my life and shining style!
 navbar-links:
   About Me: "aboutme"
   Articles:
-    - Techblog "http://Meditator-hkx.github.io/Techblog"
-    - Life "http://Meditator-hkx.github.io/Life"
+    # - Techblog "http://Meditator-hkx.github.io/Techblog"
+    # - Life "http://Meditator-hkx.github.io/Life"
     - Beautiful Jekyll: "http://kaixinhuang.com/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
