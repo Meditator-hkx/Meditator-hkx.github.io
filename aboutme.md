@@ -1,16 +1,17 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: 我的故事
+subtitle: 也只是仅此而已的故事
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+我的名字是黄凯欣，是一个平凡的大学生，似乎也将永远平凡下去。
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- 我喜欢写作，但是没有坚持下来
+- 我喜欢跑步，但是没有坚持下来
+- 我喜欢吉他，但是依旧没有坚持下来
 
-What else do you need?
+我不过是一个智商一般韧性一般行动力也一般的平凡人，却怀抱那么多的痴心妄想。
 
-### my history
+### 历史的印记
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+想要了解那个曾经狂妄的我，请进入 [我的主页](http://www.kaixinhuang.com) 阅读更多内容。
