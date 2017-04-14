@@ -24,10 +24,18 @@ description: Show my life and shining style!
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+  Articles:
+    - Techblog
+    - Life
+    - Beautiful Jekyll: "http://kaixinhuang.com/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
+  Project:
+    - Research
+    - DDST
+    - Assignment
+    - Others
+  
   Author's home: "http://kaixinhuang.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
