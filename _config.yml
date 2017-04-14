@@ -23,20 +23,20 @@ description: Show my life and shining style!
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Articles:
+  关于我: "aboutme"
+  文章:
     - Techblog: "http://www.kaixinhuang.com/"
     - Life: "http://www.baidu.com/"
     - Beautiful Jekyll: "http://kaixinhuang.com/"
     # - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
-  Project:
+  项目:
     - Research: "Research/"
     - DDST: "DDST-MC/"
     - Assignment: "Assignment/"
     - Others: "OTHERS/"
   
-  Author's home: "http://kaixinhuang.com"
+  个人主页: "http://kaixinhuang.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -51,7 +51,7 @@ avatar: "/img/avatar-icon.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Kaixin Huang
+  name: 黄开心
   email: "Kaixinhuang@sjtu.edu.cn"
   # facebook: yourname  # eg. daattali
   # github: yourname    # eg. daattali
