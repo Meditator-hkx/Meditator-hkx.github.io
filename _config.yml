@@ -25,7 +25,7 @@ description: Show my life and shining style!
 navbar-links:
   关于我: "aboutme"
   文章:
-    - 博客主页: "_posts/" 
+    - 博客主页: "https://Meditator-hkx.github.com/" 
     - Techblog: "Techblog/"
     - Life: "http://www.baidu.com/"
     - Beautiful Jekyll: "http://kaixinhuang.com/"
