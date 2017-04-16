@@ -2,6 +2,7 @@
 layout: page
 title: 我的故事
 subtitle: 也只是仅此而已的故事
+image: /img/characters/罗小黑.gif
 ---
 
 我的名字是黄凯欣，是一个平凡的大学生，似乎也将永远平凡下去。
