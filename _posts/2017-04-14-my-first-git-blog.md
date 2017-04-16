@@ -4,7 +4,7 @@ published: true
 title: 那仿佛仍然是一场漫长的梦
 subtitle: 今天也将会倏忽而逝
 date: 2017-4-14
-image: /img/lonliness-2.jpeg
+image: /img/characters/罗小黑.jpeg
 ---
 ![一人的风景]({{site.baseurl}}/img/lonliness-2.jpeg)
 
