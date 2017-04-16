@@ -6,7 +6,7 @@ subtitle: 今天也将会倏忽而逝
 date: 2017-4-14
 image: Thumbnail
 ---
-![404-southpark.jpg]({{site.baseurl}}/img/404-southpark.jpg)
+![onliness.jpg]({{site.baseurl}}/img/lonliness-2.jpg)
 
 今天是个普通的周五，没有什么特殊的事在我身上发生，虽然我似乎有着某种希冀，但世界是不会因此而乱了脚步的。
 
