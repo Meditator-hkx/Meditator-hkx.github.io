@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First post
-image: /img/lonliness.jpeg
+image: /img/characters/罗小黑.gif
 tags:
   - random
   - exciting-stuff
