@@ -4,9 +4,9 @@ published: true
 title: 那仿佛仍然是一场漫长的梦
 subtitle: 今天也将会倏忽而逝
 date: 2017-4-14
-image: Thumbnail
+image: /img/lonliness-2.jpeg
 ---
-![onliness.jpg]({{site.baseurl}}/img/lonliness-2.jpg)
+![一人的风景]({{site.baseurl}}/img/lonliness-2.jpeg)
 
 今天是个普通的周五，没有什么特殊的事在我身上发生，虽然我似乎有着某种希冀，但世界是不会因此而乱了脚步的。
 
