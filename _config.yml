@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Kaixin's website
+title: 开心之家
 
 # Short description of your site
-description: Show my life and shining style!
+description: 真我的风采
 
 # --- Navigation bar options --- #
 
@@ -25,17 +25,17 @@ description: Show my life and shining style!
 navbar-links:
   关于我: "aboutme"
   文章:
-    - 博客主页: "https://Meditator-hkx.github.io/" 
-    - Techblog: "Techblog/"
-    - Life: "http://www.baidu.com/"
+    - 全部文章: "https://Meditator-hkx.github.io/" 
+    - 技术博客: "Techblog/"
+    - 生活随笔: "https://Meditator-hkx.github.io/Life"
     - Beautiful Jekyll: "http://kaixinhuang.com/"
     # - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+    - 测试 Page: "https://pages.github.com/"
   项目:
-    - Research: "Research/"
-    - DDST: "DDST-MC/"
-    - Assignment: "Assignment/"
-    - Others: "OTHERS/"
+    - 科学研究: "Research/"
+    - 课题项目: "DDST-MC/"
+    - 学生作业: "Assignment/"
+    - 有待补充: "OTHERS/"
   
   个人主页: "https://Meditator-hkx.github.io/"
 
