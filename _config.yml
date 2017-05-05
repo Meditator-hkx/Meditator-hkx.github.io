@@ -27,7 +27,7 @@ navbar-links:
   文章:
     - 全部文章: "https://Meditator-hkx.github.io/" 
     - 技术博客: "Techblog/"
-    - 生活随笔: "https://Meditator-hkx.github.io/Life/"
+    - 生活随笔: "https://Meditator-hkx.github.io/Life/index"
     - Beautiful Jekyll: "http://kaixinhuang.com/"
     # - Learn markdown: "http://www.markdowntutorial.com/"
     - 测试 Page: "https://pages.github.com/"
