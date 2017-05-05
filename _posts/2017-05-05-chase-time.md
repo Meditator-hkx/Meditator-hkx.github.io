@@ -9,6 +9,7 @@ image: /img/characters/罗小黑.gif
 
 ![时间旅者](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRcLdKNm-TctwBylO8D4QT7lWiSHmtbByp8xOQIj8em9kIkofZlNw)
 
+
 我想让自己变得轻松起来，我想安安稳稳地睡一觉。可是现如今，这已成为了一个太过遥远的奢望。
 
 我欺骗了时间，于是理所当然地被时间所抛弃。如果我哪怕有那么一刻对自己保持真诚，也不会落得像现在这般一败涂地。
