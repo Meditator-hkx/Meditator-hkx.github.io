@@ -44,7 +44,7 @@ navbar-links:
 avatar: "/img/avatar-icon.png"
 
 # Set the paginator path
-paginate_path: "/Life/"
+# paginate_path: "/Life/"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
