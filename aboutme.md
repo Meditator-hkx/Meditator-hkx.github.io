@@ -24,4 +24,4 @@ image: /img/characters/罗小黑.gif
 想要了解更多我的信息，请点击如下链接：
 
 - [CSDN博客记录](http://write.blog.csdn.net/postlist?t=top&id=49383511)
-- [简书文章]（http://www.jianshu.com/u/f9fc7dd44d54)
+- [简书文章](http://www.jianshu.com/u/f9fc7dd44d54)
