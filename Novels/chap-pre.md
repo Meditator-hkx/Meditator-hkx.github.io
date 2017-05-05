@@ -27,7 +27,7 @@ image: /img/characters/罗小黑.gif
 
 ## 链接
 
-    [上一章](chap-pre) | [返回目录](index) | [下一章](chap-one) 
+    [上一章](/Novels/chap-pre) | [返回目录](/Novels/index) | [下一章](/Novels/chap-one) 
 
 
 
