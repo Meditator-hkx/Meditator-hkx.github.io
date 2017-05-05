@@ -43,6 +43,9 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/avatar-icon.png"
 
+# Set the paginator path
+paginate_path: "/Life/"
+
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # title-img: /path/to/image
@@ -125,7 +128,7 @@ timezone: "China/Shanghai"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 10
+paginate: 5
 
 kramdown:
   input: GFM
@@ -163,7 +166,7 @@ exclude:
 
 # prose.io config
 prose:
-  # rooturl: '_posts'
+  rooturl: '_posts'
   media: 'img'
   ignore:
     - 404.html
