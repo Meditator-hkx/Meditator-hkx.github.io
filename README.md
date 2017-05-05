@@ -1,3 +1,7 @@
+**Notice that the theme template of my website is using the Beautiful Jekyll developed by Dean Attali, following are the primitive raw information.**
+
+
+
 # Beautiful Jekyll
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/daattali/20)
