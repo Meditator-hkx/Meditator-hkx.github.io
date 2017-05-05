@@ -1,9 +1,12 @@
 ---
-layout: page
+layout: post
+published: true
 title: 追赶时间的人
 subtitle: 愿望总是那么遥远
-use-site-title: true
+date: 2017-5-5
+image: /img/characters/罗小黑.gif
 ---
+
 
 我想让自己变得轻松起来，我想安安稳稳地睡一觉。可是现如今，这已成为了一个太过遥远的奢望。
 
