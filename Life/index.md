@@ -9,3 +9,4 @@ use-site-title: true
 
 - [追赶时间的人](2017-05-05-chase-time)
 - [梦中的大冒险](2017-05-06-dream)
+- [动漫集锦](2017-05-06-comic-list)
