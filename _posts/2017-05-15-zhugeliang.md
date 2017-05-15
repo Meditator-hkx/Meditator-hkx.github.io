@@ -11,10 +11,6 @@ published: true
 ---
 
 
-
-![我偶像镇楼](http://upload-images.jianshu.io/upload_images/2512559-9888289a1e12bf81.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
 亮，这一天终于还是来了。每一次你离我而去，北上伐敌，我都在心里默默祈祷，愿你福泽深厚，就像从前那样，我只要在院里的海棠花下突然转身，就能看见你站在我身后，眉眼带笑。
 
 你收拾行囊，整装待发时，我心里有好多话想对你讲。可是我总是存着一丝念头，你又不是一去不还，我何必多言晦气，只待君归，自可再话家常。可不想，这一次却成了永诀。
@@ -63,6 +59,3 @@ published: true
 
 春恨秋悲皆自惹，花容月貌为谁妍。
 只是当年明月在，曾照彩云归去闲。
-
-
-![月英](http://upload-images.jianshu.io/upload_images/2512559-5177253f5b09f552.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
