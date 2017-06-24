@@ -6,6 +6,6 @@ use-site-title: true
 ---
 
 ## 小说列表
-- [正是群星闪耀时](kaixinhuang.com/Otherworld)
-- [Recreators: 异次元界的冒险](/Rec)
-- [死亡之前](/Modernworld)
+- [正是群星闪耀时](kaixinhuang.com/Novels/Otherworld)
+- [Recreators: 异次元界的冒险](kaixinhuang.com/Novels/Rec)
+- [死亡之前](kaixinhuang.com/Novels/Modernworld)
