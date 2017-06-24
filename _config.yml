@@ -26,16 +26,14 @@ navbar-links:
   关于我: "aboutme"
   文章:
     - 全部文章: "https://Meditator-hkx.github.io/" 
-    - 技术博客: "Techblog/"
-    - 生活随笔: "https://Meditator-hkx.github.io/Life/index"
-    - Beautiful Jekyll: "http://kaixinhuang.com/"
-    # - Learn markdown: "http://www.markdowntutorial.com/"
-    - 测试 Page: "https://pages.github.com/"
+    - 技术博客: "Techblog/index.md"
+    - 生活随笔: "Life/index.md"
+    - 小说: "Novels/index.md"
   项目:
-    - 科学研究: "Research/"
-    - 课题项目: "DDST-MC/"
-    - 学生作业: "Assignment/"
-    - 有待补充: "OTHERS/"
+    - 科学研究: "Research/index.md"
+    - 课题项目: "DDST-MC/index.md"
+    - 自发小项: "MyProject/index.md"
+    - 有待补充: "OTHERS/index.md"
   
   个人主页: "https://Meditator-hkx.github.io/"
 
