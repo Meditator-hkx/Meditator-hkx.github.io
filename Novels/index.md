@@ -1,7 +1,11 @@
-# 开心王子的小说集
+---
+layout: page
+title: 开心王子的小说集
+subtitle: 且行且珍惜
+use-site-title: true
+---
 
-## [正是群星闪耀时](/Otherworld)
-
-## [Recreators: 异次元界的冒险](/Rec)
-
-## [读博到底读什么](/Modernworld)
+## 小说列表
+- [正是群星闪耀时](Novels/Otherworld)
+- [Recreators: 异次元界的冒险](Novels/Rec)
+- [死亡之前](Novels/Modernworld)
