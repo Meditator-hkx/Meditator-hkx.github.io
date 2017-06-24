@@ -25,3 +25,8 @@ image: /img/characters/罗小黑.gif
 
 - [CSDN博客记录](http://write.blog.csdn.net/postlist?t=top&id=49383511)
 - [简书文章](http://www.jianshu.com/u/f9fc7dd44d54)
+
+
+### 友链
+
+- [牧师的网站](http://mushix.cc)
