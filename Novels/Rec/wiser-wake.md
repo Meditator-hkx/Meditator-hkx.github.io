@@ -5,7 +5,7 @@ subtitle: 苏醒的智者
 use-site-title: true
 ---
 
-[上一章](/Novels/Rec/man-talk) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/about-zhenjian) 
+[上一章](/Novels/Rec/man-talk) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/about-zhenjian) 
  
 水蓝色的双眸中映出银白色的灯盏，窗外有两只鸟儿正看着窗内的小人儿窃窃私语，那应该是在嫉妒她的美丽。
 
