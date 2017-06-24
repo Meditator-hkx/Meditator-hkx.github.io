@@ -134,6 +134,4 @@ use-site-title: true
 
 听到这句话的优夜身体打了一个寒颤，看来有人跟自己想到一块去了呢。
 
-接下来要对付的敌人，毫无疑问是阿尔泰尔，而他们，又有什么新的动作？
-
 [上一章](/Novels/Rec/man-talk) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/about-zhenjian) 
