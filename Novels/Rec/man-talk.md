@@ -5,7 +5,7 @@ subtitle: 男人间的对话
 use-site-title: true
 ---
 
- [上一章](/Novels/Rec/knight-attack) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/wiser-wake) 
+ [上一章](/Novels/Rec/knight-attack) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/wiser-wake) 
 
 松原坐在塞蕾佳的病床旁，忧心忡忡。毫无疑问，他对她的担心已经超过了创造者对被造物的感情。 不，或许那就是他原本的感情也说不定——如果自己有女儿的话，应该就是这种感觉吧，他如此想着。 
 
