@@ -10,6 +10,8 @@ use-site-title: true
 - 集合篇
 - 乱斗篇
 - 真鉴篇
+  - [男人间的对话](man-talk)
+  - [苏醒的智者](wiser-wake)
 - 创作篇
 - 军姬篇
 - 别离篇
