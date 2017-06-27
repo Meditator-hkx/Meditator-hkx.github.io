@@ -17,7 +17,7 @@ use-site-title: true
 2. 持久化性能测试
  - 所谓性能测试，即是对比Store数据直接到NVM的方式比传统的持久化方法（从内存持久化到磁盘的操作通常是fysnc或者msync），根据项目结题指标，性能提升应在5% 以上，实验设计图如下所示：
  
- ![持久化测试框架](https://github.com/Meditator-hkx/Meditator-hkx.github.io/edit/master/DDST-NVM/img/MM-exp-design.png)
+ ![持久化测试框架](http://kaixinhuang.com/DDST-NVM/img/MM-exp-design.png)
 
 ## 基本简介
 
