@@ -67,19 +67,12 @@ NVM是一种新型非易失存储器件，它兼具传统的DRAM和DISK二者的
 
 #### Hashmap 随机插入 实验程序（部分）：
 
-```
-// PM 持久化
-#include <stdio.h>
+应该不需要，待定~
 
-```
-
-```
-// RAMDISK 持久化
-#include <stdio.h>
-
-```
 
 #### 结果及分析
+
+结果图 + 分析
 
 
 ### Redis Benchamrk 测试
@@ -100,24 +93,16 @@ Redis通常将全部的数据存储在内存中，目前通过两种方式实现
 
 #### Redis KV-pair 数据写入 实验程序（部分）：
 
-```
-#include <stdio.h>
-
-```
+应该不需要，待定~
 
 #### 结果及分析
 
-性能对比图需要两个：
-一个是与传统的持久化机制对比的；另一个是Redis应用对比的。
-
-![持久化测试结果](https://github.com/Meditator-hkx/Meditator-hkx.github.io/edit/master/DDST-NVM/img/MM-exp-re-1.png)
-![持久化测试结果](https://github.com/Meditator-hkx/Meditator-hkx.github.io/edit/master/DDST-NVM/img/MM-exp-re-2.png)
+结果图 + 分析
 
 
 
-远远超过5%，如何解释这种现象？
 
-解释：
+
 
 ## 总结
 
