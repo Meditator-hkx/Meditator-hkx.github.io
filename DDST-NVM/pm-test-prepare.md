@@ -72,24 +72,59 @@ NVM是一种新型非易失存储器件，它兼具传统的DRAM和DISK二者的
 
 #### 结果及分析
 
-结果图 + 分析
+|  测试数据量   |   持久化方式   |  吞吐量（rps） | 耗时（s） |
+|:-:|:-:|:-:|:-:|
+| 1000 | NVM |  |  |
 
 
 ### Redis Benchamrk 测试
 
 #### Redis Benchmark 简介
 
-Redis是一个使用ANSI C编写的开源、支持网络、基于内存、可选持久性的键值对存储数据库。
+Redis 是一个使用 ANSI C 编写的开源、支持网络、基于内存、可选持久性的键值对存储数据库。
 
-Redis通常将全部的数据存储在内存中，目前通过两种方式实现持久化：
-- 使用快照，一种半持久耐用模式，不时的将数据集以异步方式从内存以RDB格式写入硬盘。
-- 使用AOF文件，一种只能追加的日志类型。它通过将数据集修改操作记录起来以保证持久性。Redis能够在后台对只可追加的记录作修改来避免无限增长的日志。
+Redis 通常将全部的数据存储在内存中，目前通过两种方式实现持久化：
+- 使用快照，一种半持久耐用模式，不时的将数据集以异步方式从内存以 RDB 格式写入硬盘。
+- 使用 AOF 文件，一种只能追加的日志类型。它通过将数据集修改操作记录起来以保证持久性。Redis 能够在后台对只可追加的记录作修改来避免无限增长的日志。
 
-本质上，Redis 的持久化也是文件系统持久化的类型。但由于其属于典型的大数据应用（内存数据库），且具有相对成熟的持久化方法。如果使用 NVM 持久化机制，则需要对其数据存储和持久化模块作相应的修改，具体表现为：
+本质上，Redis 的持久化也是文件系统持久化的类型，内部调用了 fsync 函数进行数据同步。但由于其属于典型的大数据应用（内存数据库），且具有相对成熟的持久化方法。如果使用 NVM 持久化机制，则需要对其数据存储和持久化模块作相应的修改，具体表现为：
 - 第一，将 KV-pair 的存储区域改为 NVM （通过调用持久化内存分配接口可以实现）
 - 第二，禁用 RDB 和 AOF 持久化。
 
 同理，为了保证实验对比的公平公正性，我们依旧采用同前一实验相同的原则：统一使用 NVDIMM 模拟 DRAM、NVM 和 DISK （RDB和AOF均是将持久化快照、日志写到磁盘中）。
+
+Redis Benchmark 基本介绍如下：
+
+```
+Usage: redis-benchmark [-h <host>] [-p <port>] [-c <clients>] [-n <requests]> [-k <boolean>]
+
+ -h <hostname>      Server hostname (default 127.0.0.1)
+ -p <port>          Server port (default 6379)
+ -s <socket>        Server socket (overrides host and port)
+ -a <password>      Password for Redis Auth
+ -c <clients>       Number of parallel connections (default 50)
+ -n <requests>      Total number of requests (default 100000)
+ -d <size>          Data size of SET/GET value in bytes (default 2)
+ --dbnum <db>       SELECT the specified db number (default 0)
+ -k <boolean>       1=keep alive 0=reconnect (default 1)
+ -r <keyspacelen>   Use random keys for SET/GET/INCR, random values for SADD
+  Using this option the benchmark will expand the string __rand_int__
+  inside an argument with a 12 digits number in the specified range
+  from 0 to keyspacelen-1. The substitution changes every time a command
+  is executed. Default tests use this to hit random keys in the
+  specified range.
+ -P <numreq>        Pipeline <numreq> requests. Default 1 (no pipeline).
+ -q                 Quiet. Just show query/sec values
+ --csv              Output in CSV format
+ -l                 Loop. Run the tests forever
+ -t <tests>         Only run the comma separated list of tests. The test
+                    names are the same as the ones produced as output.
+ -I                 Idle mode. Just open N idle connections and wait.
+```
+
+> 典型测试用例：redis-benchmark -t set -r 100000 -n 1000000
+
+> 关闭 Redis 服务器: redis-cli shutdown
 
 #### Redis KV-pair 数据写入 实验程序（部分）：
 
@@ -97,11 +132,26 @@ Redis通常将全部的数据存储在内存中，目前通过两种方式实现
 
 #### 结果及分析
 
-结果图 + 分析
 
+|  测试数据量   |   持久化方式   |  吞吐量（rps） | 耗时（s） |
+|:-:|:-:|:-:|:-:|
+| 1000 | NVM | 142857.14 | 0.01 |
+| 1000 | RDB | 142857.14 | 0.01 |
+| 1000 | AOF | 11111.11 | 0.09 |
+| 10,000 | NVM | 92951.22 | 0.11 |
+| 10,000 | RDB | 114942.53 | 0.09 |
+| 10,000 | AOF | 11976.05 | 0.83 |
+| 100,000 | NVM | 132590.05 | 0.78 |
+| 100,000 | RDB | 133155.80 | 0.75 |
+| 100,000 | AOF | 11133.38 | 8.98 |
+| 1,000,000 | NVM | 138811.77 | 7.20 |
+| 1,000,000 | RDB | 130327.12 | 7.67 |
+| 1,000,000 | AOF | 11188.31 | 89.38 |
+| 10,000,000 | NVM | 196317.09 | 50.94 |
+| 10,000,000 | RDB | 129320.93 | 77.33 |
+| 10,000,000 | AOF | 12168.13 | 813.24 |
 
-
-
+分析部分可参考 [Redis 持久化](http://redisdoc.com/topic/persistence.html)。
 
 
 ## 总结
