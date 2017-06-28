@@ -56,7 +56,7 @@ author:
   name: 黄开心
   email: "Kaixinhuang@sjtu.edu.cn"
   # facebook: yourname  # eg. daattali
-  # github: yourname    # eg. daattali
+  github: Meditator-hkx    # eg. daattali
   # twitter: yourname   # eg. daattali
   # reddit: yourname    # eg. daattali
   # google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
@@ -100,7 +100,7 @@ share-links-active:
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "kaixinhuang"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
