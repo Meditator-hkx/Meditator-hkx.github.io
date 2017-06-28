@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Memo 现代操作系统中的混合内存管理模型
-subtitle: 
+subtitle: 另一种思路
 use-site-title: true
 ---
 
