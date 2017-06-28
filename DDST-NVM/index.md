@@ -7,6 +7,7 @@ use-site-title: true
 
 
 ## 论文积累
+- [Memo: 现代操作系统下的混合内存管理变革](hybrid-mem-paper-cas-17)
 
 ## 灵光一闪
 - [持久化内存时代的编程机制变革猜想](pm-era-programming)
