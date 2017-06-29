@@ -5,8 +5,16 @@ subtitle: 当存款在500万以前我唯一的兴趣应该是赚钱
 use-site-title: true
 ---
 
+## 基础知识
+- [内存子系统的层级架构](mainmemory-arch)
+	- Channel
+	- DIMM
+	- Rank
+	- Chip
+	- Bank
+	- Row/Colum Buffer
 
-## 论文积累
+## 论文笔记
 - [Memo: 现代操作系统下的混合内存管理变革](hybrid-mem-paper-cas-17)
 
 ## 灵光一闪
