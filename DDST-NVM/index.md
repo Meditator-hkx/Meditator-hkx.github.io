@@ -6,7 +6,7 @@ use-site-title: true
 ---
 
 ## 基础知识
-- [内存子系统的层级架构](mainmemory-arch)
+- [内存子系统的层级架构](mainmemory-arch.pdf)
 	- Channel
 	- DIMM
 	- Rank
