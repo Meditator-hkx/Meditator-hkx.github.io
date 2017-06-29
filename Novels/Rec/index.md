@@ -13,6 +13,14 @@ use-site-title: true
   - [男人间的对话](man-talk)
   - [苏醒的智者](wiser-wake)
   - [争论与结论](argue-on-justice)
+  - [真鉴的一天](zhenjian-day)
+  - [电话里的交锋](phone-call)
+  - [危险的男人](dangerous-man)
+  - [突如其来的战斗](sudden-war)
+  - [真鉴的实力](zhenjian-ability)
+  - [月的败北](moon-fail)
+  - [谎言 VS 谎言](lie-to-lie)
+  - [最后的战术](final-strategy)
 - 创作篇
 - 军姬篇
 - 别离篇
