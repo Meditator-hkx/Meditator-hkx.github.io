@@ -5,7 +5,7 @@ subtitle: 争论与结论
 use-site-title: true
 ---
 
-[上一章](/Novels/Rec/wiser-wake) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/phone-call) 
+[上一章](/Novels/Rec/wiser-wake) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/zhenjian-day) 
 
 菊地原反应很快，明白过来月所指的应是筑城院真鉴。
 “但是，比起筑城院来说，阿尔泰尔对这个世界的威胁更大。
@@ -71,7 +71,7 @@ use-site-title: true
 （看来就连米特奥拉也猜不到这个计划了，果然是因为身处异世界对于我们的某些知识理解不够完全么？）月竖起食指，向众人说道：“首先我来解释我之前的作战部署吧！”
 （赢过那家伙是有可能的，她的能力并非完美——不，我赌的就是这一点，这样是我唯一的胜算······）
 
-[上一章](/Novels/Rec/wiser-wake) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/phone-call) 
+[上一章](/Novels/Rec/wiser-wake) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/zhenjian-day) 
 
 
 
