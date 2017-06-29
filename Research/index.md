@@ -5,6 +5,10 @@ subtitle: A PhD Should Be Both Brave and Naive
 use-site-title: true
 ---
 
+## Useful Materials
+- [CCF List PDF](ccf-2015.pdf)
+- [CCF Search Engine](to-be-added)
+
 ## Research Paper Reading Skills
 - [How to Read A Research Paper ](paper-reading-v2.pdf)
 - [How to Read A CS Research Paper](cs-reading-paper.pdf)
