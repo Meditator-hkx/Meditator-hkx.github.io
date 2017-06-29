@@ -26,43 +26,76 @@ use-site-title: true
 ，比如数据一致性问题），传统的内存管理架构就不适于新型的 NVM 内存管理，需要做一定程度的合理的改良优化。比如智能地为应用分配 DRAM 或 NVM 内存页，
 监视内存使用，进行冷热页迁移等等。
 
-## 内存访问模式的研究
 
-### 读写访问模式
+## 关键技术
 
-### 
+### 内存读写访问的研究
 
-## 内存利用率的监视
+研究者们为了使混合内存管理架构在性能上有所提升，针对内存访问模式做了专门的研究。
 
-## Memos 设计与 MCHA
+其中，读写访问模式如下图所示
 
-## 仿真与内核模块
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/access-pattern.jpeg)
+
+基于读写负载的历史信息进行预测的观察如下图所示
+
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/access-prediction.jpeg)
+
+预测机制的设计如下图所示
+
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/predict-model.jpeg)
+
+
+内存的重用模式上也存在巨大的差异，尤其以 GemsFDTD 负载为主，如下图所示
+
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/reuse-pattern.jpeg)
+
+
+### 内存利用率的监视
+
+由于内存子系统层级结构方面的特殊性，传统的方法没有考虑存在内存读写性能不对称时的内存分配优化，如下图所示：
+
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/bank-utilization.jpeg)
+
+
+
+## Memos 设计与实现
+
+Memos 的基本框架如下图所示：
+
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/memos-framework.jpeg)
+
+
+NVM 纳入 Buddy System 统一管理，其子系统图如下：
+
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/nvm-buddy.jpeg)
+
+
+内存页在 DRAM 和 NVM 间的迁移算法如下图所示：
+
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/page-migration.jpeg)
+
 
 ## 实验评估
 
-## 相关工作
+实验的仿真框架如下图所示：
 
-### OS 层的性能优化
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/emulation-platform.jpeg)
 
-### 设计/优化 混合内存管理系统
+实验结果图如下所示：
 
-### NVM Allocator 设计
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/exp-resource-schedule.jpeg)
 
-### 内存页的染色分割
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/exp-latency-energy.jpeg)
 
-### 页访问（模式）的监测
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/exp-bank-opt.jpeg)
 
-## 开放式讨论
+![](http://kaixinhuang.com/DDST-NVM/img/hybrid-mem-paper-cas-17/exp-resource-schedule.jpeg)
 
-### 可移植性
-
-### 现实可用性
-
-### 内存占用（Footprint）
-
-给用户提供接口
 
 ## 总结与思考
+
+待补充
 
 研究者干了一件什么事？
 怎么干成的？有哪些干货性的设计或技术？
