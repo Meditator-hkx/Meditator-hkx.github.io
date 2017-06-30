@@ -102,11 +102,6 @@ share-links-active:
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 # disqus: "kaixinhuang"
 
-<!-- UY BEGIN -->
-<div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
-<!-- UY END -->
-
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
 
