@@ -167,6 +167,10 @@ Usage: redis-benchmark [-h <host>] [-p <port>] [-c <clients>] [-n <requests]> [-
 
 ## 总结
 
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
 
 
 

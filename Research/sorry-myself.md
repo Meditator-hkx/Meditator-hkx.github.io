@@ -41,6 +41,9 @@ However, I really want to say sorry to myself, for the time I wasted, for the li
 
 I hope when I wake tomorrow, I can leave all the fragile weakness behind and straightly move forward towards my goal of publishing papers. I think I can do it. No, I have to believe that I can make it.
 
-
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
 
 

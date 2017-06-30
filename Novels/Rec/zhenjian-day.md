@@ -102,5 +102,8 @@ use-site-title: true
 [上一章](/Novels/Rec/argue-on-justice) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/phone-call)
 
 
-
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
 

@@ -25,3 +25,8 @@ image: /img/characters/罗小黑.gif
 所以，我要拒绝那酒池肉林的诱惑，回归真正的精神田园。唯有如此，我才能不愧对当年那个未被污染的孩子。
 
 不要跑得太快，记得还在麦田里等我。
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->

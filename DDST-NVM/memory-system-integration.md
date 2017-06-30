@@ -49,7 +49,6 @@ use-site-title: true
 
 我们内存系统的本身框架图可以构建为如下所示：
 
-```
 ---------------------------------------
             -------------
            | Application |
@@ -77,7 +76,6 @@ use-site-title: true
 			   | NVM |                       <--- Hardware Device
 			   	-----
 ---------------------------------------
-```
 
 
 ## 需要集成的功能模块简介
@@ -91,3 +89,9 @@ use-site-title: true
 	- SCM 管理模块：新增代码的主体
 	- 事务日志模块：主要实现了 log 和 transaction，用于一致性的维护
 - 用户模块：主要是指 pcmapi 所包含的全部代码及实验测试代码，此部分是独立于内核版本的
+
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->

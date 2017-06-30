@@ -108,3 +108,8 @@ NVM 纳入 Buddy System 统一管理，其子系统图如下：
 
 可用性的依据？workload的变化是否合理？如何识别严重的 read-heavy 或者 write-heavy workload，页迁移的基础是否合理，迁移的开销？
 
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
+
