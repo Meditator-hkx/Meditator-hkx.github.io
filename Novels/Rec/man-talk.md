@@ -71,4 +71,4 @@ use-site-title: true
 
 从一开始敲门时，他大概就知道他会守在塞蕾嘉身旁了。那么，刚才的话，也就可以理解为是替自己打气和缓解他的紧张情绪了。明明月他自己也十分担心米特奥拉的安危，却还是选择来找自己谈心，自然而然地消减他的忧虑，真是个“多管闲事”的好孩子——而他相信，这并不是自作多情。 
 
-[上一章](/Novels/Rec/knight-attack) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/wiser-wake)
+ [上一章](/Novels/Rec/knight-attack) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/wiser-wake) 
