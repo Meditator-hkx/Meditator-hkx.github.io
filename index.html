@@ -10,18 +10,17 @@ use-site-title: true
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
-
-    <!-- UY BEGIN -->
-    <div id="uyan_frame"></div>
-    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
-    <!-- UY END -->
-
 	  {% if post.subtitle %}
 	  <h3 class="post-subtitle">
 	    {{ post.subtitle }}
 	  </h3>
 	  {% endif %}
     </a>
+
+    <!-- UY BEGIN -->
+    <div id="uyan_frame"></div>
+    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+    <!-- UY END -->
 
     <p class="post-meta">
       Posted on {{ post.date | date: "%B %-d, %Y" }}
