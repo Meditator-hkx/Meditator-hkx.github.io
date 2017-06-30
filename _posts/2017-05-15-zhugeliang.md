@@ -59,3 +59,9 @@ published: true
 
 春恨秋悲皆自惹，花容月貌为谁妍。
 只是当年明月在，曾照彩云归去闲。
+
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->

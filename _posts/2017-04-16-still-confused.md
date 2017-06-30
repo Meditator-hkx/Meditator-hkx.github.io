@@ -46,5 +46,10 @@ image: /img/characters/罗小黑.gif
 
 就这么办吧,就算所有人都不再对你有所期待，你依然要活得坚强而骄傲！
 
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
+
 
 
