@@ -9,11 +9,11 @@ use-site-title: true
 
 ### Intel 的 NVML 框架参考
 
-![](http://kaixinhuang.com/DDST-NVM/img/system-integration/intel-nvm-swarch.jpg)
+![](http://kaixinhuang.com/DDST-NVM/img/intel-nvm-swarch.jpg)
 
 可以看到，Intel 所设计的框架是将对 NVM 的内存访问模式，文件系统访问模式以及卷模式三者融合在一起的。
 
-![](http://kaixinhuang.com/DDST-NVM/img/system-integration/intel-nvm-libarch.jpg)
+![](http://kaixinhuang.com/DDST-NVM/img/intel-nvm-libarch.jpg)
 
 在接口库方面，Intel 提供了较为成熟的文件系统访问接口以及内存访问模式下的 pmalloc 接口、事务接口。
 
