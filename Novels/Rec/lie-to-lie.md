@@ -1,12 +1,12 @@
 ---
 layout: page
 title: 真鉴篇
-subtitle: 
+subtitle: 谎言 VS 谎言
 use-site-title: true
 ---
 
 
-[上一章](/Novels/Rec/phone-call) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/sudden-war)
+[上一章](/Novels/Rec/moon-fail) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/final-strategy)
 
 等等，你是怎么和真鉴通话的？她的电话号码，为什么······
 
@@ -101,7 +101,7 @@ use-site-title: true
 
 
 
-[上一章](/Novels/Rec/phone-call) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/sudden-war)
+[上一章](/Novels/Rec/moon-fail) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/final-strategy)
 
 
 

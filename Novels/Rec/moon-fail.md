@@ -1,12 +1,12 @@
 ---
 layout: page
 title: 真鉴篇
-subtitle: 
+subtitle: 月的败北
 use-site-title: true
 ---
 
 
-[上一章](/Novels/Rec/phone-call) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/sudden-war)
+[上一章](/Novels/Rec/zhenjian-ability) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/lie-to-lie)
 
 等等，你是怎么和真鉴通话的？她的电话号码，为什么······
 
@@ -101,7 +101,7 @@ use-site-title: true
 
 
 
-[上一章](/Novels/Rec/phone-call) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/sudden-war)
+[上一章](/Novels/Rec/zhenjian-ability) | [返回目录](/Novels/Rec/index) | [下一章](/Novels/Rec/lie-to-lie)
 
 
 
