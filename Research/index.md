@@ -10,8 +10,9 @@ use-site-title: true
 - [CCF Search Engine](to-be-added)
 
 ## Research Paper Reading Skills
-- [How to Read A Research Paper ](paper-reading-v2.pdf)
-- [How to Read A CS Research Paper](cs-reading-paper.pdf)
+- [How to Read A Paper ](paper-reading.pdf)
+- [How to Read A Research Paper](research-paper-reading.pdf)
+- [How to Read A CS Research Paper](cs-paper-reading.pdf)
 
 ## Research Work List
 - NVM-optimized KV-Store Library
