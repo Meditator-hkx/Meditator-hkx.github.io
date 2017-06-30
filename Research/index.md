@@ -9,10 +9,13 @@ use-site-title: true
 - [CCF List PDF](ccf-2015.pdf)
 - [CCF Search Engine](to-be-added)
 
-## Research Paper Reading Skills
+## Research Skills
 - [How to Read A Paper ](paper-reading.pdf)
 - [How to Read A Research Paper](research-paper-reading.pdf)
 - [How to Read A CS Research Paper](cs-paper-reading.pdf)
+
+## PhD Grind Notes
+- [I want to say sorry to myself](sorry-myself)
 
 ## Research Work List
 - NVM-optimized KV-Store Library
