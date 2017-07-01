@@ -25,9 +25,8 @@ image: /img/characters/罗小黑.gif
 - [CSDN博客记录](http://write.blog.csdn.net/postlist?t=top&id=49383511)
 - [简书文章](http://www.jianshu.com/u/f9fc7dd44d54)
 
-<a href="http://kaixinhuang.com/music/wanan-miao.mp3">
-点击此处来播放 the Beatles
-</a>
+
+<bgsound src="http://kaixinhuang.com/music/wanan-miao.mp3" />
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=477206035&auto=0&height=66"></iframe>
 
