@@ -30,6 +30,8 @@ image: /img/characters/罗小黑.gif
 
 - [牧师的网站](http://mushix.cc)
 
+<embed src="http://kaxinhuang.com/music/wanan-miao.mp3" autostart="true" hidden="true" loop="1" volume="100" width="200" height="100" />
+
 <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
 <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
