@@ -25,9 +25,9 @@ description: 真我的风采
 navbar-links:
   关于我: "aboutme"
   文章:
-    - 全部文章: "https://Meditator-hkx.github.io/" 
-    - 技术博客: "Techblog/index"
-    - 生活随笔: "https://Meditator-hkx.github.io/Life/"
+    - 精选文章: "https://Meditator-hkx.github.io/" 
+    - 技术博客: "TechBlog/"
+    - 生活随笔: "Life/"
     - 小说: "Novels/"
   项目:
     - 科学研究: "Research/"
