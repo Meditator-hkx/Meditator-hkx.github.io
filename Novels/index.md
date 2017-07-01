@@ -6,6 +6,10 @@ use-site-title: true
 ---
 
 ## 小说列表
-- [正是群星闪耀时](Otherworld)
+- [公主与商人与故事书](FairyTale)
+- [刀与魔法：复仇之城](AvengerCity)
+- [正是群星闪耀时](OtherWorld)
 - [Recreators: 异次元界的冒险](Rec)
-- [死亡之前](Modernworld)
+- [死亡之前](ModernWorld)
+- [短中篇小说集](SingleStories)
+
