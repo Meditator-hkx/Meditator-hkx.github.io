@@ -25,8 +25,7 @@ image: /img/characters/罗小黑.gif
 - [CSDN博客记录](http://write.blog.csdn.net/postlist?t=top&id=49383511)
 - [简书文章](http://www.jianshu.com/u/f9fc7dd44d54)
 
-
-<bgsound src="http://kaixinhuang.com/music/wanan-miao.mp3" />
+<embed src="//music.163.com/style/swf/widget.swf?sid=27836172&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=27836172&auto=0&height=66"></iframe>
 
