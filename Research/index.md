@@ -26,6 +26,7 @@ use-site-title: true
 
 ## Paper Reading Notes
 - In-memory Computing and Data Management
+	- [SIGMOD'16 Hybrid Index in Main Memory DBS](hybrid-index-db)
 - Distributive System and Parallel Computing
 
 ## Conference Paper List
