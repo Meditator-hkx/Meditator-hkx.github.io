@@ -54,7 +54,7 @@ use-site-title: true
 
 我们内存系统 Daisy 的框架图可以构建为如下所示：
 
-![](http://kaixinhuang.com/DDST-NVM/img/daisy-framwork.png)
+![](http://kaixinhuang.com/DDST-NVM/img/daisy-framework.png)
 
 与传统的内存分配与管理并不相互矛盾而是兼容并包。
 
@@ -70,7 +70,7 @@ use-site-title: true
 	- 事务日志模块：主要实现了 log 和 transaction，用于一致性的维护
 - 用户模块：主要是指 pcmapi 所包含的全部代码及实验测试代码，此部分是独立于内核版本的
 
-</br>
+
 
 <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
