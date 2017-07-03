@@ -36,7 +36,10 @@ navbar-links:
     - 自发小项: "MyProject/"
     - 有待补充: "OTHERS/"
   
-  个人主页: "https://Meditator-hkx.github.io/"
+  业余爱好: 
+    - 跑者之路: "Marathon/"
+    - 新人吉他曲: "Guitar/"
+    - 视频·微电影: "MicroFilms/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
