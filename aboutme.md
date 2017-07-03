@@ -25,7 +25,7 @@ image: /img/characters/罗小黑.gif
 - [CSDN博客记录](http://write.blog.csdn.net/postlist?t=top&id=49383511)
 - [简书文章](http://www.jianshu.com/u/f9fc7dd44d54)
 
-<embed src="//music.163.com/style/swf/widget.swf?sid=27836172&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all">
+<embed src="//music.163.com/style/swf/widget.swf?sid=27836172&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all">
 
 原创毕业歌《再相遇》
 
