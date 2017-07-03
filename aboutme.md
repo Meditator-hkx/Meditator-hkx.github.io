@@ -27,6 +27,11 @@ image: /img/characters/罗小黑.gif
 
 <embed src="//music.163.com/style/swf/widget.swf?sid=27836172&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all">
 
+原创毕业歌《再相遇》
+
+<embed src="//music.163.com/style/swf/widget.swf?sid=418335742&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all">
+
+
 ### 友链
 
 - [牧师的网站](http://mushix.cc)
