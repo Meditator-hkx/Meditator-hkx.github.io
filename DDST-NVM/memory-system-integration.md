@@ -21,7 +21,7 @@ use-site-title: true
 
 一个仿照 Intel 的设计所拟画的基本草图如下所示：
 
-![](http://kaixinhuang.com/DDST-NVM/img/dual-integration.png)
+![](http://kaixinhuang.com/DDST-NVM/img/dual-integration-1.png)
 
 
 #### 大数据应用方面的思考
