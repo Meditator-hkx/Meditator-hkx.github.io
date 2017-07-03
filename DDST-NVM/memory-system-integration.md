@@ -19,6 +19,11 @@ use-site-title: true
 
 ### 我们的解决方案
 
+一个仿照 Intel 的设计所拟画的基本草图如下所示：
+
+![](http://kaixinhuang.com/DDST-NVM/img/dual-integration.png)
+
+
 #### 大数据应用方面的思考
 
 什么类型的应用需要用到持久内存管理来运行，保证数据持久化和一致性而不是用文件系统的机制？
@@ -47,36 +52,11 @@ use-site-title: true
 
 ## 一致性的非易失内存管理框架
 
-我们内存系统的本身框架图可以构建为如下所示：
+我们内存系统 Daisy 的框架图可以构建为如下所示：
 
----------------------------------------
-            -------------
-           | Application |
-            -------------
-           		  |
-           		  |                          <--- User Layer
-           		  V
-       -----------------------    		  
-      | Persistent Memory API |
-       ----------------------- 
-      			  |
-------------------|--------------------
-                  V
-        ------------------------
-       |  Persisten ID Manager  |
-       | Buddy System Allocator |                     
-       |   Transaction Engine   |            <--- Kernel Layer
-       |                        |
-        ------------------------
-                  |
-------------------|--------------------
-				  |
-				  V
-				-----
-			   | NVM |                       <--- Hardware Device
-			   	-----
----------------------------------------
+![](http://kaixinhuang.com/DDST-NVM/img/daisy-framwork.png)
 
+与传统的内存分配与管理并不相互矛盾而是兼容并包。
 
 ## 需要集成的功能模块简介
 
@@ -90,6 +70,7 @@ use-site-title: true
 	- 事务日志模块：主要实现了 log 和 transaction，用于一致性的维护
 - 用户模块：主要是指 pcmapi 所包含的全部代码及实验测试代码，此部分是独立于内核版本的
 
+</br>
 
 <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
