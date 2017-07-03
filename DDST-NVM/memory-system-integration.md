@@ -71,6 +71,29 @@ use-site-title: true
 - 用户模块：主要是指 pcmapi 所包含的全部代码及实验测试代码，此部分是独立于内核版本的
 
 
+## 周一组会的讨论
+
+课题成果集成
+- 多模式访问
+- PM-Aware 文件系统
+- PM 管理
+
+Intel 的集成图
+
+多模式访问接口
+
+持久内存管理
+
+建议：与因特尔的内存管理接口的区别是什么？怎么去描述 p_malloc 等的功能优越性。
+
+Eurosys 论文中的 PM 的基本框图
+
+System Software for Persistent Memory
+
+最好还是用 Redis 作为大数据应用，比较有说服力，做实验也比较方便。
+
+集成选择哪几家单位的模块？不是所有的模块都能集成。。。
+
 
 <!-- UY BEGIN -->
 <div id="uyan_frame"></div>

@@ -34,6 +34,7 @@ use-site-title: true
 ### Database
 - VLDB
 - SIGMOD
+	- Reducing the Storage Overhead of Main-Memory OLTP Databases with Hybrid Indexes Huanchen (2016)
 - ICDE
 - ICDR
 
