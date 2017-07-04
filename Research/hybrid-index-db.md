@@ -94,12 +94,30 @@ The pratical example of dual-stage architecture on four index structures are as 
 
 ### Discussion = Experiments and Result Analysis
 
+![](http://kaixinhuang.com/Research/hybrid-index/microbench-DTS-test.png)
+![](http://kaixinhuang.com/Research/hybrid-index/microbench-performance.png)
+![](http://kaixinhuang.com/Research/hybrid-index/systest-in-mem-workload.png)
+![](http://kaixinhuang.com/Research/hybrid-index/systest-larger-than-mem-workload.png)
 
 
 ## Technique Details
 
+- How DTS is implemented?
+	- Compaction
+	- Reduction
+	- Compression
+- How static index structure is implemented?
+- Merge Process
+	- Blocking
+	- Merfe-all
 
-## Pros and Cons -> Ideas
+
+
+## Inspired Ideas
+- A Tradeoff Research among Data Tuples, Indexes and Evicted Tables in Memory Consumption
+- Dual-stage Architecture of Indexes in Hybrid Memory
+- A Memory-efficient Hash Table Index with Range Query Optimization
+- Non-blocking Merging for Hybrid Indexes with COW
 
 
 
