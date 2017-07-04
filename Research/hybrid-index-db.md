@@ -53,8 +53,47 @@ What kind of story has been told?
 
 ### Background: THE CASE FOR HYBRID INDEXES
 
+What kind of background is offered by the author? And are you persuaded?
+
+1. Indexes are a major factor in the memory printfoot of a database.
+
+2. It is important to design a memory-efficient index structure to improve the performance and reduce the cost.
+
+3. A common way to reduce the size of B+ trees is to compress their nodes before they are written to disk, at the price of a heavy decompression overhead for OLTP workloads.
+
+4. One question is: should index treat all the data tuples in the underlying tables equally?
+
+5. For many OLTP applications, it shouldn't behave that way (for example, the news data in database).
+
+6. So, a possible solution might be to build **multiple partial indexes[^1] on the same keys with different data structures**.
+
+7. However, partial indexes with different data structures has its own problems:
+- Developers might need to modify the applications to decide for certain data tuples, what kind of indexes they should be stored as.
+- Query Optimizer also doesn't know what index to use for a query.
+
+8. A better and novel approach can be simple hybrid index structure with dual-stage architecture.
+
+9. Index entries for new tuples go into a fast, write-friendly data structure since they are more likely to be queried again in the near future. Over time, the tuples become colder and their access patterns change, usually from frequent modification to occasional read.
+
+10. The dual-stage architecture is shown as below:
+
+![](http://kaixinhuang.com/Research/hybrid-index/dual-stage.png)
+
+Explanation: 
+
+- Two stage index structure
+- DTS Rule
+- Bloom Filter
+- Order of Access
+
+The pratical example of dual-stage architecture on four index structures are as follows:
+
+![](http://kaixinhuang.com/Research/hybrid-index/multi-index-struct.png)
+
+
 
 ### Discussion = Experiments and Result Analysis
+
 
 
 ## Technique Details
@@ -65,7 +104,7 @@ What kind of story has been told?
 
 
 
-
+[^1]: Also called filtered index, which is built on only a few data rows that satisfy specified conditions. Details can be found in [Wiki](https://en.wikipedia.org/wiki/Partial_index)
 
 <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
