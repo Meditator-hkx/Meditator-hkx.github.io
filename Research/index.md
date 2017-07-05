@@ -7,7 +7,7 @@ use-site-title: true
 
 ## Useful Materials
 - [CCF List PDF](ccf-2015.pdf)
-- [CCF Search Engine](to-be-added)
+- [THE PH.D. GRIND A Ph.D. Student Memoir](pguo-PhD-grind.pdf)
 
 ## Research Skills
 - [How to Read A Paper ](paper-reading.pdf)
@@ -15,6 +15,7 @@ use-site-title: true
 - [How to Read A CS Research Paper](cs-paper-reading.pdf)
 
 ## PhD Grind Notes
+
 - [I want to say sorry to myself](sorry-myself)
 
 ## Research Work List
