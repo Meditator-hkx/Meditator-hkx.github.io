@@ -13,6 +13,7 @@ use-site-title: true
 	- Chip
 	- Bank
 	- Row/Colum Buffer
+- [RAMDISK 基础知识](ramdisk-base)
 
 ## 论文笔记
 - [Memo: 现代操作系统下的混合内存管理变革](hybrid-mem-paper-cas-17)
