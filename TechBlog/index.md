@@ -27,3 +27,10 @@ use-site-title: true
 - 文件系统
 - 流水线技术
 - 并行技术
+
+## 计算机体系结构
+
+一方面，我担任《计算机体系结构》助教，自己会酌情阅读《Computer Architecture: A Quantitive Approach》自学；另一方面，由于感觉部分知识非常艰深晦涩，所以选择了普林斯顿大学的 Coursera 课程 作为辅助。
+
+我整理了自己的学习笔记，列在下表：
+- [计算机体系结构简介](Blogs/CA/Introduction) 
