@@ -25,4 +25,6 @@ use-site-title: true
 - [持久化内存的测试准备](pm-test-prepare)
 - [内存管理系统集成之关键问题思考](memory-system-integration)
 
-## 组会记录 （按日期）
+## 讲座 & 组会
+
+- [Runtime Solutions to Apply Non-Volatile Memories in Future Systems](lecture-runtime-solution-nvm)
