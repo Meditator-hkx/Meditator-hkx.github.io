@@ -18,9 +18,7 @@ use-site-title: true
 - 《Redis 设计与实现》
 
 ## 数据库知识积累
-- 关系型数据库
-- KV Store 设计
-- 内存数据库专题
+- [Index 之能说的秘密](Blogs/Database/what-is-an-index)
 
 ## 操作系统学习
 - 内存管理
