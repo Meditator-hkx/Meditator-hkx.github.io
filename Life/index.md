@@ -11,5 +11,6 @@ use-site-title: true
 	- [追赶时间的人](2017-05-05-chase-time)
 	- [梦中的大冒险](2017-05-06-dream)
 	- [偶尔的思考](2017-07-07-think)
+	- [杭州慢](2017-07-14-hangzhou-wander)
 
 - [动漫点评](comic-index)
