@@ -21,8 +21,6 @@ image: /img/characters/罗小黑.gif
 
 我没法任性地开始说走就走的旅行，但每一次的不得不走也都是旅行。
 
-![西湖美景](https://www.google.com.hk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiYnY-Np4jVAhUFE5QKHR5EC4IQjRwIBw&url=http%3A%2F%2Fbaobinhphuoc.com.vn%2FContent%2Fnhung-cay-cau-o-trung-quoc-dep-nhu-tranh-ve-66772&psig=AFQjCNHu_a9pLm5K9H4WaNuOj5JGQEkxkQ&ust=1500105573961343)
-
 ## 重逢
 
 因为本来就怀着约见故友的私信，在火车上的时候我就已经跟在杭州的两位同学说了我要来的事情。他们也都欣然同意，虽然中间有一些峰回路转，但最后定下的结果是约在阿里巴巴门口见面——那里是其中一个同学的工作地。
