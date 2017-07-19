@@ -57,10 +57,15 @@ VM_SOFTDIRTY undeclared。经过刚才那次困难的恫吓，这点小事已经
 没错，这个问题是系统启动不了。
 
 我尝试敲了如下命令：
+
 > make mrproper
+
 > make localmodconfig
+
 > make 
+
 > sudo make install
+
 > sudo reboot
 
 安装内核成功，进入重启阶段，选择 3.11 内核启动，然后，就没有然后了。
@@ -76,10 +81,15 @@ VM_SOFTDIRTY undeclared。经过刚才那次困难的恫吓，这点小事已经
 重新编译内核时我小心地将命令改为如下顺序组合： 
 
 > make mrproper
+
 > make localmodconfig
+
 > make -j4
+
 > sudo make modules_install
+
 > sudo make install
+
 > sudo reboot
 
 然后，重启，选择内核，啊，终于成功了。
@@ -104,7 +114,33 @@ p_init -> p_get_small_region(id) -> (int)syscall(__NR_p_get_small_region) -> sea
 
 我在 p_init 所必经的调用 critical path 上增加了一个 printk 标记，如果 p_get_small_region 函数运行，就会打印出一条预设的特定信息。
 
-然而，返回的结果令我十分诧异。daisy_printk的信息并没有被打印出来，这说明系统调用根本没有真正被执行？这究竟该如何是好？
+然而，返回的结果令我十分诧异。daisy_printk 的信息并没有被打印出来。
+
+在求助薛栋梁师兄后，我发现了 daisy_printk 不能正产工作的缘由。这是因为内核态的“打印”不会直接将信息返回给用户，而是以日志的方式进行记录，如果要查看，需要做这样的操作:
+- dmesg > one_file
+- vim one_file
+
+再根据 printk 中预设的 keyword 进行查找，以查看打印的信息。而 Daisy 所使用的内核打印函数 daisy_printk 自身包含了 [Daisy] 作为 keyword，因此检索起来十分方便。这就极大地提高了内核调试的效率。
+
+根据返回的结果，现在可以确认系统调用被执行。错误信息如下：
+
+> Cannot find heap region per program
+
+> Error: alloc_pages
+
+错误发生在 alloc_pages 内部，接下来需要进一步检查 alloc_pages 的工作流程以及程序故障点的位置。
+
+### 第二步：根据调用逻辑进一步探索故障点位置
+
+虽然不是很确定，但可以先把这一个要素放在这里作为提点。
+
+VM_SOFTDIRTY 是一个根据条件选择决定数值的变量，这是 3.11 版本原来所没有的。
+
+也许它是问题的一个关键也说不定。
+
+总之，现在还是根据 daisy_printk 的逻辑来检查我的程序吧。
+
+alloc_pages 的函数调用逻辑为 
 
 <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
