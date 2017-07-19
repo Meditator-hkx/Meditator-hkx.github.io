@@ -140,7 +140,17 @@ VM_SOFTDIRTY 是一个根据条件选择决定数值的变量，这是 3.11 版�
 
 总之，现在还是根据 daisy_printk 的逻辑来检查我的程序吧。
 
-alloc_pages 的函数调用逻辑为 
+alloc_pages 的函数调用逻辑为 alloc_pages -> alloc_pages_current -> __alloc_pages_nodemask -> get_page_from_freelist。
+
+经过和海鑫的讨论检查，我们最终确认了问题所在：SCM地址段没有正确初始化，也就是说我在进行代码移植的过程中缺少了一个关键性的语句：
+
+```
+if (gfp_mask & __GFP_SCM) {
+	goto try_this_zone;
+}
+```
+
+最后修改完这里及做好相应的 printk 机关设置，重新编译内核，安装，重启，选择当前内核，使用 dmesg | grep "Daisy" 查看开机信息，此时 SCM 的地址段和预期一般。最后执行测试程序，p_init 正产执行，Oh yeah！
 
 <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
