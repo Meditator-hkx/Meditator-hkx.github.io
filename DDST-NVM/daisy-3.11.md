@@ -150,7 +150,7 @@ if (gfp_mask & __GFP_SCM) {
 }
 ```
 
-最后修改完这里及做好相应的 printk 机关设置，重新编译内核，安装，重启，选择当前内核，使用 `dmesg | grep "Daisy" `查看开机信息，此时 SCM 的地址段和预期一般。最后执行测试程序，p_init 正产执行，Oh yeah！
+最后修改完这里及做好相应的 printk 机关设置，重新编译内核，安装，重启，选择当前内核，使用 `dmesg | grep "Daisy" `查看开机信息，此时 SCM 的地址段和预期一般。最后执行测试程序，p_init 正常执行，Oh yeah！
 
 <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
