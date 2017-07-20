@@ -17,11 +17,7 @@ use-site-title: true
 
 ## 论文笔记
 - [Memo: 现代操作系统下的混合内存管理变革](hybrid-mem-paper-cas-17)
-- [Mnemosyne: 持久内存系统的集大成者]()
-- [NV-Heaps: 持久内存系统的开山之作]()
-- [Heapo: 持久内存系统的改良者]()
-- [NVML: 企业级的 NVM 完美开发]()
-- [Kamino-Tx]()
+- [持久内存系统设计的三座大山：Mnemosyne、NV-Heaps与Heapo](persistent-mem-3-papers)
 
 ## 灵光一闪
 - [持久化内存时代的编程机制变革猜想](pm-era-programming)
