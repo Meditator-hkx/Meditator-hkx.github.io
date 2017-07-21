@@ -57,8 +57,6 @@ Application
 Evaluation
 - Platform: Multicore ARM processors + FPGA platform
 
-### Conclusion
-
 
 
 <!-- UY BEGIN -->
