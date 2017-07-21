@@ -182,6 +182,7 @@ Daisy 的贡献主要有以下三个方面：
 Daisy 的系统框图如下：
 
 ![](http://kaixinhuang.com/DDST-NVM/img/daisy-framework.png)
+![](http://kaixinhuang.com/DDST-NVM/img/daisy-framework.pdf)
 
 应用 Daisy 的典型工作流程如下：
 
