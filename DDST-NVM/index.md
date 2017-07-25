@@ -30,7 +30,5 @@ use-site-title: true
 
 ## 讲座 & 组会
 
-![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/AVL-Tree.jpg)
-
 - [Runtime Solutions to Apply Non-Volatile Memories in Future Systems](lecture-runtime-solution-nvm)
 - [Storage and Architecture for Next Generation Data Centers](storage-arch-next-generation-data-center)
