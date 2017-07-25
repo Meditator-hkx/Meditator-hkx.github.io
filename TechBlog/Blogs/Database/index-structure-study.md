@@ -23,17 +23,17 @@ AVL 是一种自平衡的二叉树，其命名是源自两位作者的名字首�
 
 ![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/AVL-Tree.jpg)
 
-它是一种基于内存设计的索引结构，但缺点是空间开销太大，一个节点只保存一个数据。
+它是一种基于内存设计的索引结构，在索引上具有log(n)的时间复杂度，但缺点是空间开销太大，一个节点只保存一个有效数据（其他是指针数据）。
 
 ### B-Tree Index
 
-B-Tree 及其 变种 B+-Tree 是广泛应用于磁盘数据库的索引结构，近些年来的内存数据库也常使用它们作为基本索引结构来来提高 range query 的性能。
+B-Tree 及其 变种 B+-Tree 是广泛应用于磁盘数据库的索引结构，近些年来的内存数据库（比如 H-Store）也常使用它们作为基本索引结构来来提高 range query 的性能。
 
 B-Tree 的基本结构如下所示：
 
 ![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/B-Tree.jpg)
 
-与 AVL 相比，B-Tree 在磁盘数据库上更具优势，但在纯内存环境下（如果内存足够大）则性能就不如
+与 AVL-Tree 相比，B-Tree 在磁盘数据库上更具优势，但在纯内存环境下（如果内存足够大）性能就不如了。
 
 ### B+-Tree Index
 
@@ -45,11 +45,27 @@ B+-Tree 结构更适合磁盘数据库，而 B-Tree 更适合内存数据库。
 
 ### Chain Bucket Hashing Index
 
-### Extendible Hashing
+而在所有的索引结构中，单条目索引在哈希结构中是最快的，因为哈希索引的索引方式为 loc = hash(key)。一个 Chain Bucket Hash Index 数据结构如下图所示：
 
-### Linear Hashing
+![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/hash-chained.jpeg)
 
-### Modified Linear Hashing
+映射到同一位置的哈希键可以组织成一个 list bucket，解决哈希冲突的问题。然而，这一哈希索引结构的问题是它是静态结构（这也是它的优点），事先必须决定哈希表的大小——当然，这并不等于哈希键的映射数量是被限制的。只是在扩展时这一索引结构不太方便。
+
+### Extendible Hashing Index
+
+这一哈希索引结构解决了上一结构的问题，可以事先动态扩展，它的数据结构如下图所示：
+
+![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/hash-extendible.jpeg)
+
+扩展的原理是利用类似哈夫曼编码中的最小前缀做区分，具体的例子可以参考相关链接中的图示。
+
+### Linear Hashing Index
+
+![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/hash-linear.jpeg)
+
+### Modified Linear Hashing Index
+
+![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/hash-modified.jpeg)
 
 ### Others
 - Skiplist Index
@@ -88,6 +104,9 @@ T-Node 的结构如下所示：
 - [Chain Bucket Hashing Index](http://opendatastructures.org/ods-cpp/5_1_Hashing_with_Chaining.html)
 - [AVL-Tree 维基百科](https://en.wikipedia.org/wiki/AVL_tree)
 - [B-Tree 及 B+-Tree 的区别](https://stackoverflow.com/questions/870218/differences-between-b-trees-and-b-trees)
+- [Extendible Hashing 维基百科](https://en.wikipedia.org/wiki/Extendible_hashing)
+- [Linear Hashing 维基百科](https://en.wikipedia.org/wiki/Linear_hashing)
+
 
 <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
