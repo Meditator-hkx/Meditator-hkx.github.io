@@ -72,7 +72,7 @@ T-Tree 的数据结构如下所示：
 
 T-Node 的结构如下所示：
 
-![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/T-Node.jpeg)
+![](http://kaixinhuang.com/DDST-NVM/img/MM-exp-design.png)
 
 ### T-Tree 的操作
 - 查找
