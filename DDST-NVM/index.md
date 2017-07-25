@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DDST 项目组的工作日志
-subtitle: 当存款在500万以前我唯一的兴趣应该是赚钱
+subtitle: 当存款在500万以前你唯一的兴趣应该是赚钱
 use-site-title: true
 ---
 
