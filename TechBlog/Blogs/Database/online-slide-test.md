@@ -68,11 +68,11 @@ T-Tree 是一种结合 AVL-Tree 和 B-Tree 两者特色而诞生的索引结构�
 
 T-Tree 的数据结构如下所示：
 
-![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/T-Tree.jpeg)
+![]()
 
 T-Node 的结构如下所示：
 
-![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/T-Node.jpeg)
+![]()
 
 ### T-Tree 的操作
 - 查找
