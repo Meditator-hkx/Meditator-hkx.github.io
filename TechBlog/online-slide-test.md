@@ -2,16 +2,12 @@
 layout: page
 title: 内存数据中的索引结构探究
 subtitle: 道可道，非常道
-Tags:
-- index
-- memory
-- database
 use-site-title: true
 ---
 
 ## 数据库中的常见索引结构
 
-索引对于加快对数据库中的数据的访问具有非常重要的意义。上一篇文章[数据库中的 Index](http://kaixinhuang.com/TechBlog/Blogs/Database/what-is-an-index/)重点介绍了基本的索引 Index 的概念和工作流程，今天我们对应用在数据库中的主流索引结构进行更深一步的探究。
+索引对于加快对数据库中的数据的访问具有非常重要的意义。上一篇文章 [数据库中的 Index](http://kaixinhuang.com/TechBlog/Blogs/Database/what-is-an-index/) 重点介绍了基本的索引 Index 的概念和工作流程，今天我们对应用在数据库中的主流索引结构进行更深一步的探究。
 
 ### Array Index
 
@@ -25,7 +21,7 @@ use-site-title: true
 
 AVL 是一种自平衡的二叉树，其命名是源自两位作者的名字首字母组合：Adelson-Velsky & Evgenii Landis. 它的数据结构图如下所示：
 
-![]()
+![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/AVL-Tree.jpg)
 
 它是一种基于内存设计的索引结构，但缺点是空间开销太大，一个节点只保存一个数据。
 
@@ -35,7 +31,7 @@ B-Tree 及其 变种 B+-Tree 是广泛应用于磁盘数据库的索引结构，
 
 B-Tree 的基本结构如下所示：
 
-![]()
+![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/B-Tree.jpg)
 
 与 AVL 相比，B-Tree 在磁盘数据库上更具优势，但在纯内存环境下（如果内存足够大）则性能就不如
 
@@ -43,7 +39,7 @@ B-Tree 的基本结构如下所示：
 
 B+-Tree 与 B-Tree 其实非常相似。它们的区别在于，B+-Tree 的中间节点不保存数据值，只保存到下一层的指针。全部的数据值都保存在叶子节点中，且叶子节点相互连接成（单向或双向）链表，检索和更新操作非常便利。两者的区别图示如下：
 
-![]()
+![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/B+-Tree.jpg)
 
 B+-Tree 结构更适合磁盘数据库，而 B-Tree 更适合内存数据库。
 
@@ -68,11 +64,11 @@ T-Tree 是一种结合 AVL-Tree 和 B-Tree 两者特色而诞生的索引结构�
 
 T-Tree 的数据结构如下所示：
 
-![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/T-Tree.jpeg)
+![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/T-Tree.jpg)
 
 T-Node 的结构如下所示：
 
-![](http://kaixinhuang.com/DDST-NVM/img/MM-exp-design.png)
+![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/T-Node.jpg)
 
 ### T-Tree 的操作
 - 查找
@@ -92,3 +88,8 @@ T-Node 的结构如下所示：
 - [Chain Bucket Hashing Index](http://opendatastructures.org/ods-cpp/5_1_Hashing_with_Chaining.html)
 - [AVL-Tree 维基百科](https://en.wikipedia.org/wiki/AVL_tree)
 - [B-Tree 及 B+-Tree 的区别](https://stackoverflow.com/questions/870218/differences-between-b-trees-and-b-trees)
+
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
