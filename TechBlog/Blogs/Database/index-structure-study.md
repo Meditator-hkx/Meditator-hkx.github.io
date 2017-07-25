@@ -92,11 +92,33 @@ T-Node 的结构如下所示：
 - 删除
 - 平衡（自动）
 
+这些动作兼具 AVL-Tree 与 B-Tree 的特点，没有太大的特殊性，但在之后的实验性能表现上确实更佳。
+
 ### T-Tree 的利弊分析
+
+T-Tree 更适合 OLAP 还是 OLTP？答案是 OLAP。理由呢？
+
+H-Store 选择 B+-Tree 作为 Index 结构的理由是什么？
+
 
 
 ## 实验评估：数据结构对数据库性能的影响
 
+实验采用了一系列 transaction workload 的组合：建立数据库+索引表，首先是搜索，然后执行三种 query 的组合，然后执行 range queries， 然后执行 table scan， 最后删除一半数据。
+
+- 搜索：
+- 三种 query 组合：
+- range queries：
+- table scan：
+- 删除： 
+
+实验结果如下：
+
+![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/exp-1.jpeg)
+
+![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/exp-2.jpeg)
+
+![](http://kaixinhuang.com/TechBlog/Blogs/Database/Index-img/exp-3.jpeg)
 
 
 相关链接：
