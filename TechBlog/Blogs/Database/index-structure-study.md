@@ -106,7 +106,8 @@ H-Store 选择 B+-Tree 作为 Index 结构的理由是什么？
 
 实验采用了一系列 transaction workload 的组合：建立数据库+索引表，首先是搜索，然后执行三种 query 的组合，然后执行 range queries， 然后执行 table scan， 最后删除一半数据。
 
-- 搜索：
+- 插入：插入三万个元素
+- 搜索：搜索三万个随机元素
 - 三种 query 组合：
 - range queries：
 - table scan：
