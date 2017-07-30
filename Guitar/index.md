@@ -10,7 +10,7 @@ use-site-title: true
 - [Next To You (寄生兽BGM)](next-to-you.m4a)
 - [Childhood 班得瑞](childhood-bandary.wav)
 - [天空之城](sky-city.wav)
-- [最终幻想素敌](sudi.wav)
+- [最终幻想素敌](sudi.m4a)
 - [孤星独吟](guxingduyin.m4a)
 - [1967-gontiti](1967-amplification.wav)
 - [兄弟-钢炼BGM](brothers.wav)
