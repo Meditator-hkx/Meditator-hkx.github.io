@@ -11,7 +11,7 @@ use-site-title: true
 
 ## 技术提升
 - [VIM 实用技巧大全]()
-- [Linux Bash 实用技巧大全]()
+- [Linux QAs](Blogs/qa-set) 
 - [在线幻灯片](online-slide-test)
 
 ## 读书感言
