@@ -27,6 +27,7 @@ use-site-title: true
 - [持久化内存的测试准备](pm-test-prepare)
 - [内存管理系统集成之关键问题思考](memory-system-integration)
 - [持久内存系统的内核迁移](daisy-3.11)
+- [Daisy 的函数 BUG 改进](daisy-issue-set)
 
 ## 讲座 & 组会
 
