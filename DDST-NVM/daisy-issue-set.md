@@ -153,8 +153,7 @@ void* p_malloc(int size) {
 
 ```
 /* 2018-08-07: a new p_malloc implementation without bitmap but pid as input parameter */
-void *malloc(pid, int size) {
-    pBaseAddr = p_get_base();
+void *malloc(int pid, int size) {
     if (!pBaseAddr) {
         printf("Error: call p_init first!\n");
         return NULL;
@@ -209,7 +208,6 @@ void *malloc(pid, int size) {
 ```
 /* p_free is corresponding to p_malloc */
 int p_free(int pid) {
-    pBaseAddr = p_get_base();
     if (!pBaseAddr) {
         printf("Error: call p_init first!\n");
         return -1;
@@ -288,9 +286,6 @@ int p_init(int size) {
     if (*startLoc != 4 || hpid >= 10000) {
         *startLoc = 4;
         p_clear(size);
-        /* Set the first contiguous free chunk */
-        *((int *)pBaseAddr + 2) = 0; // a flag for stop searching
-        *((int *)pBaseAddr + 1) = size - 4 * sizeof(int); // length = size - (sizeof(startLoc) + sizeof(nid) + sizeof(length) + sizeof(nextLoc)
     }
 
     // printf("pBaseAddr = %p.\n", pBaseAddr);
@@ -301,15 +296,56 @@ int p_init(int size) {
 
 ```
 int p_clear() {
-    pBaseAddr = p_get_base();
     if (!pBaseAddr) {
         printf("Error: call p_init() first!\n");
         return -1;
     }
-    // set the all bytes to be 0s in this heap
+    // set all the bytes to be 0s in this heap
     memset(pBaseAddr+4, 0, size-4);
+    /* Set the first contiguous free chunk */
+    *((int *)pBaseAddr + 1) = size - 4 * sizeof(int); // length = size - (sizeof(startLoc) + sizeof(nid) + sizeof(length) + sizeof(nextLoc)
+    *((int *)pBaseAddr + 2) = 0; // a flag for stop searching
     return 0;
 } 
+```
+
+增加 p_get_malloc 代码如下所示：
+
+```
+
+void *p_get_malloc(int pid) {
+    if (!pBaseAddr) {
+        printf("Error: call p_init first!\n");
+        return -1;
+    }
+    void *pLeapAddr = pBaseAddr;
+
+    int nid, length;
+    int nextLoc = 1;
+    while (nextLoc != 0) {
+        nid = *(int *)pLeapAddr; // nid = 0 means free
+        length = *((int *)pLeapAddr + 1); // length is the size corresponding to p_malloc
+        nextLoc = *((int *)pLeapAddr + 2); // the offset of next starting address for free/used chunk 
+
+        if (nid == pid) {
+            printf("Find id %d in the heap.\n", pid);
+            return (pLeapAddr + 3 * sizeof(int));
+        }
+
+        /* If corresponding pid not found in this round, continue */
+        pLeapAddr += (length + 3 * sizeof(int));
+    }
+
+    if (nextLoc == 0) {
+        printf("Cannot find pid %d in native heap.\n", pid);
+        return NULL;
+    }
+
+    printf("Unknown type of error occured!\n");
+    return NULL;
+
+}
+
 ```
 
 
