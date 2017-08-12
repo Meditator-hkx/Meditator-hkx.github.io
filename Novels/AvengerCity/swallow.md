@@ -60,6 +60,7 @@ use-site-title: true
 “别着急。哄完我的小师妹，下一个死得就是你！”谋因双眼寒光湛湛地看向信长，又转过头来看着伊娃。
 
 伊娃感到自己的手腕和脚踝都被牢牢地束缚住了，动弹不得。那黑砂像一条冰冷的锁链，让她的身体也变得冰凉。
+
 [上一章](/Novels/AvengerCity/sand) | [返回目录](/Novels/AvengerCity/index) | [下一章](/Novels/AvengerCity/final) 
 
 <!-- UY BEGIN -->
