@@ -7,7 +7,7 @@ use-site-title: true
 
 ## 小说列表
 - [公主与商人与故事书](FairyTale)
-- [刀与魔法：复仇之城](AvengerCity)
+- [刀与魔法：复仇之城](AvengerCity/index)
 - [正是群星闪耀时](OtherWorld)
 - [死亡之前](ModernWorld)
 - [中短篇小说集](SingleStories/index)
