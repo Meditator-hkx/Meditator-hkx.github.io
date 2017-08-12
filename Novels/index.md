@@ -9,12 +9,10 @@ use-site-title: true
 - [公主与商人与故事书](FairyTale)
 - [刀与魔法：复仇之城](AvengerCity)
 - [正是群星闪耀时](OtherWorld)
-- [Recreators: 异次元界的冒险](Rec)
 - [死亡之前](ModernWorld)
-- [短中篇小说集](SingleStories)
+- [中短篇小说集](SingleStories/index)
 
-## 中短篇剧本
-- [生死迷雾](Play/liveordie)
+## 剧本
 - [毕业微电影·我们](Play/wearethere)
 - [触不可及](Play/cannottouch)
 - [鬼扯西游之清水寺篇](Play/guichexiyou)
