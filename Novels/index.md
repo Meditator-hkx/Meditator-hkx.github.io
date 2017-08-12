@@ -13,3 +13,9 @@ use-site-title: true
 - [死亡之前](ModernWorld)
 - [短中篇小说集](SingleStories)
 
+## 中短篇剧本
+- [生死迷雾](Play/liveordie)
+- [毕业微电影·我们](Play/wearethere)
+- [触不可及](Play/cannottouch)
+- [鬼扯西游之清水寺篇](Play/guichexiyou)
+
