@@ -38,17 +38,24 @@ use-site-title: true
 	- [Reducing the Storage Overhead of Main-Memory OLTP Databases with Hybrid Indexes Huanchen (2016)](2017-7-25-sigmod2016-hybridindexes.pdf)
 - ICDE
 - ICDR
+- EDBT
+- ICDCS
+- DASFAA
 
 ### System and Architecture
 - SOSP
 - OSDI
 - ASPLOS
 - MICRO
+- USENIX ATC
 - Eurosys
 - OOPLAS
 - HPCA
-- ISCA
+- ISCAS
 - MSST
+- ICCD
+- DATE
+- IPDPS
 
 ## Related Links
 - [Readings in Database Systems](http://www.redbook.io/)
