@@ -35,7 +35,7 @@ use-site-title: true
 ### Database
 - VLDB
 - SIGMOD
-	- [Reducing the Storage Overhead of Main-Memory OLTP Databases with Hybrid Indexes Huanchen (2016)](2017-7-25-sigmod2016-hybridindexes.pdf)
+	- [Reducing the Storage Overhead of Main-Memory OLTP Databases with Hybrid Indexes 2016](2017-7-25-sigmod2016-hybridindexes.pdf)
 - ICDE
 - ICDR
 - EDBT
