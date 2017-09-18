@@ -56,6 +56,7 @@ use-site-title: true
 - [Advanced Topics in Databases](http://cs.brown.edu/courses/cs227/papers.html)
 - [Readings in Databases](https://github.com/rxin/db-readings)
 - [IPADS](http://ipads.se.sjtu.edu.cn/)
+- [SCM + Database, a PhD Work](https://wwwdb.inf.tu-dresden.de/)
 - [Introduction to Computer Science](http://www.cs.cmu.edu/~213/schedule.html)
 - [Read Source Codes of Redis](https://github.com/huangz1990/blog/blob/master/diary/2014/how-to-read-redis-source-code.rst)
 - [Read Source Codes of Memcached](https://github.com/daoluan/decode-memcached)
