@@ -21,6 +21,7 @@ image: /img/characters/罗小黑.gif
 ### 学术简历（Curriculum Vatae）
 
 [点击查看简历](http://www.kaixinhuang.com/cv-chi)
+
 [Click to View the CV](http://www.kaixinhuang.com/cv-eng)
 
 ### 历史的印记
