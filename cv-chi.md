@@ -26,16 +26,31 @@ image: /img/characters/罗小黑.gif
 ### 项目经历
 
 ------------------------------------------------------------------------------
-2016-2017 863内存计算 非易失内存管理
+2016.03 - 现在 863内存计算 非易失内存管理
 
-2016-2017 内存数据库 Anti-Caching 机制改良
+2016.12 - 现在 内存数据库 Anti-Caching 机制的优化设计
+
+2017.01 - 2017.09 基于 NVM 的 Key-Value 接口库开发 
 
 ------------------------------------------------------------------------------
 ### 论文发表
 
-- NVHT: An Efficient Key-Value Store Library for Non-Volatile Memory (Accepted)
-- Daisy: An Efficient Memory System for Persistent Data Management (Submitted)
-- ADE: Adaptive Eviction for In-Memory Database Anti-Caching (Writing)
+- NVHT: An Efficient Key-Value Store Library for Non-Volatile Memory (Accepted by JPDC 2017)
+- Daisy: An Efficient Memory System for Persistent Data Management (Submitted to DATE 2018)
+- ADE: Adaptive Eviction for In-Memory Database Anti-Caching (Writing and ready to submit to EDBT 2018)
+
+------------------------------------------------------------------------------
+
+### 学生工作
+
+------------------------------------------------------------------------------
+2016.09 - 现在 2016级计算机系博士班班长
+
+2017.03 - 现在 博士毕业生就业办助管
+
+2016.09 - 现在 本科生计算机体系结构课程助教
+
+2017.06 - 现在 DDST实验室机房管理
 
 ------------------------------------------------------------------------------
 
