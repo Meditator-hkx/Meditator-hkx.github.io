@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 我的故事
-subtitle: 也只是仅此而已的故事
+title: 我的简历
+subtitle: 也只是仅此而已的简历
 image: /img/characters/罗小黑.gif
 ---
 
