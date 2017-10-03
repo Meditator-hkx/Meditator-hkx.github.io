@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 开心王子的诗歌集
+title: 黄开心的诗歌集
 subtitle: 且行且珍惜
 use-site-title: true
 ---
