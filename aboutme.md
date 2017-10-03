@@ -42,6 +42,7 @@ image: /img/characters/罗小黑.gif
 ### 友链
 
 - [牧师的网站](http://mushix.cc)
+- [嘉玺的网站](http://jiaxi.me)
 
 
 <!-- UY BEGIN -->
