@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 开心王子的吉他小屋
+title: 黄开心的吉他小屋
 subtitle: 练来练去还是个半吊子
 use-site-title: true
 ---
