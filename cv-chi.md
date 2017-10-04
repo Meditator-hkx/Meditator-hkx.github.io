@@ -13,13 +13,15 @@ image: /img/characters/罗小黑.gif
 
 最高学历 博士
 
+所在院校 上海交通大学
+
 所学专业 计算机科学与技术
 
 兴趣领域 非易失内存管理，内存数据库，Key-Value Store
 
 联系电话 暂时不放
 
-联系邮箱 Kaixinhuang@sjtu.edu.cn
+联系邮箱 Kaixinhuang at sjtu dot edu dot cn
 
 ------------------------------------------------------------------------------
 
@@ -37,7 +39,7 @@ image: /img/characters/罗小黑.gif
 
 - NVHT: An Efficient Key-Value Store Library for Non-Volatile Memory (Accepted by JPDC 2017)
 - Daisy: An Efficient Memory System for Persistent Data Management (Submitted to DATE 2018)
-- ADE: Adaptive Eviction for In-Memory Database Anti-Caching (Writing and ready to submit to EDBT 2018)
+- ADE: Adaptive Eviction for In-Memory Database Anti-Caching (Writing and ready to submit to SIGMOD 2018)
 
 ------------------------------------------------------------------------------
 
