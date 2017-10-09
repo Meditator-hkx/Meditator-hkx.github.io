@@ -19,11 +19,10 @@ use-site-title: true
 - [I want to say sorry to myself](sorry-myself)
 
 ## Research Work List
-- NVM-optimized KV-Store Library
-- Adaptive Anti-caching of In-memory Database
-- Daisy: An Efficient Persistent Memory Management Support System
-- Persistent Memory Consistency Problems
-- To be appended ...
+- [ADE: Adaptive Eviction for In-Memory DBMS Anti-caching](ReadmeSet/anti-caching-optimization)
+- [Daisy: An Efficient Persistent Memory Management Support System](ReadmeSet/daisy)
+- [NVHT: An Efficient Key-Value Store Library for Non-Volatile Memory](ReadmeSet/nvht)
+- [SDN网络中路由规则问题的放置研究](ReadmeSet/sdn-rule-placement)
 
 ## Paper Reading Notes
 - In-memory Computing and Data Management
