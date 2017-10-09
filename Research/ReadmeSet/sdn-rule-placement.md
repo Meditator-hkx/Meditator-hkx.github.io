@@ -1,28 +1,1 @@
----
-layout: page
-title: SDN网络中的路由规则放置问题研究
-subtitle: Reducing the Storage Overhead of Main-Memory OLTP Databases with Hybrid Indexes Huanchen
-use-site-title: true
----
-
-## 摘要
-
-## 背景
-
-## OFFICER 算法
-
-## LinkRank 算法
-
-## 实验评估
-
-## 讨论（如何才能更好）
-
-## 总结
-
-
-
-
-<!-- UY BEGIN -->
-<div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
-<!-- UY END -->
+---layout: pagetitle: SDN网络中的路由规则放置问题研究subtitle: Reducing the Storage Overhead of Main-Memory OLTP Databases with Hybrid Indexes Huanchenuse-site-title: true---## 摘要随着软件定义网络SDN的出现和崛起，传统的路由策略和规则放置算法已经不再完全适用。因此，结合OpenFlow协议设计一种能够满足网络操作者目标的高效的路由规则放置算法成为了SDN研究领域一个亟待解决的问题。本课题深入研究了SDN网络的架构与OpenFlow协议体系，总结了时下几个比较优秀的针对不同网络目标或不同环境下的路由规则放置算法，并给出分析且提出了一种新的基于默认路径的路由规则放置算法，与现有算法进行了比较。最后，本课题设计并实现了一个开源的路由规则测试算法框架，使算法研究者能够通过简单的编程接口实现规则放置算法并测试其性能。## 背景## OFFICER 算法## LinkRank 算法## 实验评估## 讨论（如何才能更好）## 总结<!-- UY BEGIN --><div id="uyan_frame"></div><script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script><!-- UY END -->
