@@ -109,7 +109,7 @@ The pratical example of dual-stage architecture on four index structures are as 
 - How static index structure is implemented?
 - Merge Process
 	- Blocking
-	- Merfe-all
+	- Merge-all
 
 
 
