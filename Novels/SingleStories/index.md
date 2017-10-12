@@ -10,4 +10,5 @@ use-site-title: true
 - [龟与兔：最后的比赛](lastgame)
 - [死神幻影](deathphantom)
 - [生死停留](deathstay)
+- [阿狸·消失的尾巴](alitail)
 
