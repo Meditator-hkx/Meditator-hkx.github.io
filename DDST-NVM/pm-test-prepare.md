@@ -165,8 +165,6 @@ Usage: redis-benchmark [-h <host>] [-p <port>] [-c <clients>] [-n <requests]> [-
 分析部分可参考 [Redis 持久化](http://redisdoc.com/topic/persistence.html)。
 
 
-## 总结
-
 <!-- UY BEGIN -->
 <div id="uyan_frame"></div>
 <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
