@@ -11,4 +11,5 @@ use-site-title: true
 - [死神幻影](deathphantom)
 - [生死停留](deathstay)
 - [阿狸·消失的尾巴](alitail)
+- [阿狸·寻找永远站](ali-forever-stop)
 
