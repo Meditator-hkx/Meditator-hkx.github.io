@@ -16,7 +16,7 @@ use-site-title: true
 |Versioning-mmap|Versioning-mmap: A DAX-enabled Mmap Mechanism for Versioning In-memory File Systems|IPCCC|一种新型的mmap机制，主要用来解决基于DAX的内存文件系统维护一致性（COW方式）时的严重开销问题|
 
 
-## 基于NVM的内存文件系统相关工作
+## 基于NVM的内存文件系统相关工作（旧）
 
 ### BPFS
 
@@ -71,32 +71,34 @@ NOVA replicates and checksums all metadata structures and protects file data wit
 
 我们为什么希望设计一种**分布式**的内存文件系统呢？
 
+- 分布式系统的优点是通过并行计算，大大提高系统的整体性能。而RDMA的远程内存直访省去了分布式环境下CPU指令执行的时间开销，可进一步提升系统的并行处理能力。
+
 现在的持久内存文件系统有什么问题？
+
+- 缺少并行计算，单节点的处理性能终归有限。
 
 NVM+RDMA对于持久内存文件系统有什么样潜在的巨大优势？
 
+- NVM的优势是高读写性能，可字节寻址，非易失性质；
+- RDMA的优势是分布式/并行计算，节省CPU开销，大大提高处理性能。
 
-## 分布式内存文件系统的机遇与挑战
 
-NVM的非易失特性
+## 分布式内存文件系统的相关工作
 
-RDMA的分布式优点
+- Octopus: an RDMA-enabled Distributed Persistent Memory File System （Tsinghua USENIX ATC 17）
+- Ceph over Accelio. "https://www.cohortfs.com/ceph-over-accelio", 2014
+- GlusterFS on RDMA. "https://gluster.readthedocs.io/en/latest/AdministratorGuide/RDMATransport/"
+- ISLAM, N. S., WASI-UR RAHMAN, M., LU, X., AND PANDA,D. K. High performance design for hdfs with byte-addressability
+of nvm and rdma. In Proceedings of the 2016 International Conference on Supercomputing (2016)
+- Crail: A Fast Multi-tiered Distributed Direct Access File System. https://github.com/zrlio/crail, 2017
+- STUEDI, P., TRIVEDI, A., METZLER, B., AND PFEFFERLE, J. DaRPC: Data center rpc. In Proceedings of the ACM Symposium
+on Cloud Computing (SoCC) (2014)
 
-分布式场景下的问题变化？
 
-NVM所带来的新问题？
 
-## 补充与扩展
+## 总结与规划
 
-现有哪些不错的RDMA工作可以借鉴？
-
-什么技术？
-
-什么效果？
-
-如何运用到内存文件系统的场景中来？
-
-如何与NVM完美地结合在一起？
+以清华大学发表的Octopus为基础，追本溯源，首先泛读当前已有的 RDMA+持久内存文件系统 工作，理解各自的系统特点，优势及局限性。然后精读Octopus论文，有必要的话阅读源码并再实现一次。接下来根据实验观察或者论文阅读积累找到自己的研究动机和选题点，开始写DDST的分布式持久内存文件系统。
 
 
 
