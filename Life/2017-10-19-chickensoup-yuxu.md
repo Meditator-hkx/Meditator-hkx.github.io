@@ -3,7 +3,7 @@ layout: post
 published: true
 title: 缔结契约：论工作与管理
 subtitle: 我不喜欢写这种没有价值又没有趣味的文章
-date: 2017-07-15
+date: 2017-10-19
 image: /img/characters/罗小黑.gif
 ---
 
