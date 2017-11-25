@@ -21,6 +21,9 @@ I faced this issue and then I installed headers of correct kernel version."
 
 一个网友的回复如上所示。
 
+由于任务发生了变更，接下来我只需要在自己的本机上安装好卷模式并录制视频演示就可以了。
+于是我重新编译了3.11.0内核，但是遇到了新的问题，似乎无法成功导入grub中。难道要重装Linux内核？
+
 完整的测试指南命令如下：
 
 ```
