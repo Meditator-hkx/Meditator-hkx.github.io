@@ -22,6 +22,9 @@ use-site-title: true
 - 《数据库系统实现》
 - 《Redis 设计与实现》
 
+## 安装环境的折腾
+- [Win10下使用Pycharm完美运行numpy和theano包](Blogs/win10-pycharm-datascience)
+
 ## 数据库知识积累
 - [Index 之能说的秘密](Blogs/Database/what-is-an-index)
 - [Index 数据结构概览](Blogs/Database/index-structure-study)
@@ -31,10 +34,3 @@ use-site-title: true
 - 文件系统
 - 流水线技术
 - 并行技术
-
-## 计算机体系结构
-
-一方面，我担任《计算机体系结构》助教，自己会酌情阅读《Computer Architecture: A Quantitive Approach》自学；另一方面，由于感觉部分知识非常艰深晦涩，所以选择了普林斯顿大学的 Coursera 课程 作为辅助。
-
-我整理了自己的学习笔记，列在下表：
-- [计算机体系结构简介](Blogs/CA/Introduction) 
