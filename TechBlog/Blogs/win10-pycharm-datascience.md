@@ -72,9 +72,22 @@ gpuarray的安装需要git，cmake，make三个工具（在Linux下都是小case
 
 安装完毕后，根据 [Windows theano 官方安装文档](http://deeplearning.net/software/theano/install_windows.html) 一步步操作，进行安装。
 
-接下来至关重要的步骤是
+接下来至关重要的步骤是在PyCharm中配置python版本及环境，只需在PyCharm的解释器选项中选择 Anoconda 文件夹目录下的默认python版本（3.6）即可。
+
+如果大家仔细阅读 theano 安装文档的话，应该会记得 theano 目前（2017年12月为止）并不支持 3.4 分支。
+
+【注意：如果想使用 Python 的2.7版本或者3.5版本来调用 numpy 或 theano 模块或其他任何数据科学包，必须先切换 AnaConda 工作环境（命令如下所示）并重新下载 numpy 和 theano 等等，然后再在 PyCharm 解释器选项中选择】
+
+```
+conda create -n EnvName python=2.7
+conda install numpy
+conda install theano pygpu
+```
+
+如有疑问，欢迎留言~
 
 
-
-
-
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
