@@ -7,6 +7,8 @@ use-site-title: true
 
 ## 随笔列表
 
+- [黄开心的推荐书单](2017-12-12-book-recommend-list)
+
 - 男生日记
 	- [追赶时间的人](2017-05-05-chase-time)
 	- [梦中的大冒险](2017-05-06-dream)
