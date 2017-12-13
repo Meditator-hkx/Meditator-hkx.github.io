@@ -8,6 +8,10 @@ use-site-title: true
 ## 小说列表
 - [生死迷雾](liveordie)
 - [龟与兔：最后的比赛](lastgame)
+- [狐与虎：权力的游戏](gameofthrone)
+- [狮与鹿：黎明的阴影](downshadow)
+- [狼与羊：春野的梦想](springdream)
+- [象与豹：远方的使者](faragent)
 - [死神幻影](deathphantom)
 - [生死停留](deathstay)
 - [阿狸·消失的尾巴](alitail)
