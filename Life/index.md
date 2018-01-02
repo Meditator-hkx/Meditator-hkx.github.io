@@ -15,5 +15,6 @@ use-site-title: true
 	- [偶尔的思考](2017-07-07-think)
 	- [杭州慢](2017-07-14-hangzhou-wander)
 	- [缔结契约：论工作与管理](2017-10-19-chickensoup-yuxu)
+	- [一串灰暗的梦](2018-01-02-dream)
 
 - [动漫点评](comic-index)
