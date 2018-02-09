@@ -16,5 +16,5 @@ use-site-title: true
 - [生死停留](deathstay)
 - [阿狸·消失的尾巴](alitail)
 - [阿狸·寻找永远站](ali-forever-stop)
-- [鼠行生·这一生与你的故事](mouse-story-WithACatFriend)
+- [鼠行生·这一生与你的故事](mouse-story-front)
 
