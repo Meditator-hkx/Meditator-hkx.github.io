@@ -44,8 +44,8 @@ image: /img/characters/罗小黑.gif
 
 ------------------------------------------------------------------------------
 - NVHT: An Efficient Key-Value Store Library for Non-Volatile Memory (Accepted by JPDC 2017)
-- Daisy: An Efficient Memory System for Persistent Data Management (Submitted to DATE 2018)
-- ADE: Adaptive Eviction for In-Memory Database Anti-Caching (Writing and ready to submit to SIGMOD 2018)
+- Daisy: An Efficient Memory System for Persistent Data Management (Submitted to ICS 2018)
+- ADE: Adaptive Eviction for In-Memory Database Anti-Caching (Accepted by DASFAA 2018 )
 
 ------------------------------------------------------------------------------
 
