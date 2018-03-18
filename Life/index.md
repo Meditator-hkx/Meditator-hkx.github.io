@@ -18,5 +18,6 @@ use-site-title: true
 	- [杭州慢](2017-07-14-hangzhou-wander)
 	- [缔结契约：论工作与管理](2017-10-19-chickensoup-yuxu)
 	- [一串灰暗的梦](2018-01-02-dream)
+	- [黑夜惊魂](2018-03-18-dream)
 
 - [动漫点评](comic-index)
