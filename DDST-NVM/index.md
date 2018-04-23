@@ -29,6 +29,7 @@ use-site-title: true
 - [持久内存系统的内核迁移](daisy-3.11)
 - [Daisy 的函数 BUG 改进](daisy-issue-set)
 - [分布式内存文件系统的研究准备](nvm-rdma-filesystem-prepare)
+- [POSIX 兼容接口注意事项](posix-API)
 
 ## 讲座 & 组会
 
