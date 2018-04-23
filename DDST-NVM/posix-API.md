@@ -72,11 +72,11 @@ use-site-title: true
 
 6. 当前路径获取/修改
 
-[char *getcwd(char *buf, size_t size)](http://man7.org/linux/man-pages/man2/getcwd.2.html)
+[`char *getcwd(char *buf, size_t size)`](http://man7.org/linux/man-pages/man2/getcwd.2.html)
 
-[char *getwd(char *buf)](http://man7.org/linux/man-pages/man2/getcwd.2.html)
+[`char *getwd(char *buf)`](http://man7.org/linux/man-pages/man2/getcwd.2.html)
 
-[char *get_current_dir_name(void)](http://man7.org/linux/man-pages/man2/getcwd.2.html)
+[`char *get_current_dir_name(void)`](http://man7.org/linux/man-pages/man2/getcwd.2.html)
 
 [`int chdir(const char *path)`](http://man7.org/linux/man-pages/man2/chdir.2.html)
 
