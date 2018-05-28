@@ -59,7 +59,7 @@ The atomic compare and swap will atomically compare the value at a specified vir
 ### Transport Modes
 
 There are several different transport modes you may select from when establishing a QP. 
-Operations available in each mode are shown below in the table below.
+Operations available in each mode are shown below in the table below (X means supported).
 RD is not supported by this API.
 
 | Operation | UD | UC | RC | RD |
