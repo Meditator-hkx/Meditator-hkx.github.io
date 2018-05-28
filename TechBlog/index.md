@@ -12,7 +12,6 @@ use-site-title: true
 ## 技术提升
 - [VIM 实用技巧大全]()
 - [Linux QAs](Blogs/qa-set) 
-- [在线幻灯片](online-slide-test)
 
 ## 读书感言
 - 《深入理解计算机系统》
@@ -29,8 +28,8 @@ use-site-title: true
 - [Index 之能说的秘密](Blogs/Database/what-is-an-index)
 - [Index 数据结构概览](Blogs/Database/index-structure-study)
 
-## 操作系统学习
-- 内存管理
-- 文件系统
-- 流水线技术
-- 并行技术
+## RDMA Learning Notes
+- [RDMA Architecture](Blogs/rdma-architecture)
+- [RDMA Aware Programming Overview](Blogs/rdma-overview)
+- 
+- 
