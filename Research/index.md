@@ -19,7 +19,7 @@ use-site-title: true
 - [I want to say sorry to myself](sorry-myself)
 
 ## Research Work List
-- [ADE: Adaptive Eviction for In-Memory DBMS Anti-caching](ReadmeSet/anti-caching-optimization)
+- [Adaptive Eviction for Anti-Caching Based In-Memory Databases](ReadmeSet/anti-caching-optimization)
 - [Daisy: An Efficient Persistent Memory Management Support System](ReadmeSet/daisy)
 - [NVHT: An Efficient Key-Value Store Library for Non-Volatile Memory](ReadmeSet/nvht)
 - [SDN网络中路由规则的放置问题研究](ReadmeSet/sdn-rule-placement)
@@ -57,6 +57,8 @@ use-site-title: true
 - IPDPS
 
 ## Related Links
+- [Learning Database in videos](https://www.youtube.com/watch?v=xjhQ0e9Hlds&index=1&list=PLSE8ODhjZXjYutVzTeAds8xUt1rcmyT7x)
+- [How does a relational database work](http://coding-geek.com/how-databases-work/)
 - [Readings in Database Systems](http://www.redbook.io/)
 - [CMU Advanced Databases 15-721](http://15721.courses.cs.cmu.edu/spring2016/schedule.html)
 - [Advanced Topics in Databases](http://cs.brown.edu/courses/cs227/papers.html)
