@@ -27,6 +27,7 @@ use-site-title: true
 ## 数据库知识积累
 - [Index 之能说的秘密](Blogs/Database/what-is-an-index)
 - [Index 数据结构概览](Blogs/Database/index-structure-study)
+- [SQL基本命令查询](Blogs/Database/sql-basic)
 
 ## RDMA Learning Notes
 - [RDMA Architecture](Blogs/rdma-architecture)
