@@ -21,5 +21,22 @@ The experimental results show that with adaptive eviction, anti-caching based da
 
 ## Why Anti-caching DBMS needs NVM
 
-1. Since the DRAM space is limited, the whole database may exceed the available memory size,
+Since the DRAM space is limited, the whole database may exceed the available memory size,
 thus a few (cold) data tuples should be evicted to external storage. 
+
+Anti-caching adopts disk as the anti-cache, which becomes a serious IO bottleneck.
+With the emerging non-volatile memory, we can use much more access-efficient storage device.
+
+Suppose cold tuples are organized and evicted into NVM, the bottleneck then occurs in the procedure of software design
+of eviction block merging and cold tuple retrieval.
+
+Then what other components should make a change for it?
+
+The evicted table should make a change: it tracks the cold data not using block ID anymore, but the explicit NVM address.
+
+For adaptive eviction, the problem is even tougher: how can the adaptive eviction framework be promoted exploiting the potential of NVM?
+
+**ONLY REPLACEMENT IS FRA FRAM ENOUGH**
+
+
+
