@@ -72,6 +72,43 @@ AEP 是 Intel 基于原来提出的 3D XPoint 技术制造的非易失内存硬�
 
 发现新的文件系统 hmfs 已被添加进来。
 
+接着我们试着在 hmfs 文件系统挂载点下进行相关的文件测试。
+
+> mkdir dirtesta dirtestb dirtestc
+> touch ftesta ftestb ftestc
+> ll
+
+发现相应的目录和文件已经创建完毕。那么数据读写又表现如何呢？
+
+> echo "this is a good time." >> ftesta
+> touch dirtesta/infa | echo "inner write to file" >> infa
+> cat ftesta
+> cat dirtesta/infa
+
+那么在大量读写负载请求时 hmfs 又表现如何呢？
+
+我们使用 filebench 进行测试：
+
+【相关命令需记录在此】
+
+## 混合内存管理系统
+ 
+我们基于 NVM 研发的混合内存管理系统 Daisy 支持动态的细粒度非易失内存分配，同时兼容原有的易失性内存分配机制。
+
+Daisy 的主要目的是高效地分配非易失内存空间，减少分配的内存碎片，方便地管理持久数据区域，并支持数据一致性和快速故障恢复。
+
+我们准备了一些测试例程来验证 Daisy 的功能和性能指标。
+
+在功能方面，如果我们是要创建一个持久化数据结构，比如
+
+那么是否能够找回呢？
+
+性能指标方面我们采用的传统持久化机制是Redis的RDB快照和AOF日志机制。
+
+## 大数据应用演示
+
+那么最后我们展示两个基于系统软件的大数据应用，分别是 graph500 和 图形计算。。。
+
 
 
 
