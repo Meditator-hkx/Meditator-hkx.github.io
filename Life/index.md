@@ -21,3 +21,4 @@ use-site-title: true
 	- [黑夜惊魂](2018-03-18-dream)
 
 - [动漫点评](comic-index)
+- [汽车保险](2018-06-28-insurance)
