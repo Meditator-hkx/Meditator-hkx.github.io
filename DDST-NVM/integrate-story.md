@@ -26,7 +26,9 @@ AEP 是 Intel 基于原来提出的 3D XPoint 技术制造的非易失内存硬�
 现在这台华为的服务器上总共有 128GB + 1TB 的内存空间，其中这个 128GB 是传统的 DRAM 内存，1TB 则是新型非易失内存。
 
 > ixpdimm-cli show -a -goal
+
 > ixpdimm-cli show -memoryresources
+
 > ixpdimm-cli show -a -pool
 
 （如有机会，可以请华为打开机器主板，让专家看内存条的插法并介绍：如果我没记错，应该是 2路 64G DRAM + 8路 128G AEP）
@@ -66,6 +68,7 @@ AEP 是 Intel 基于原来提出的 3D XPoint 技术制造的非易失内存硬�
 现在我们的机器上没有 hmfs 这个类型的文件系统，接下来
 
 > mkdir /root/yz/hmfs-test (可以省去)
+
 > mount -t hmfs -o physaddr=0x40000000,init=8G none /root/yz/hmfs-test
 
 > df -hT
@@ -75,14 +78,19 @@ AEP 是 Intel 基于原来提出的 3D XPoint 技术制造的非易失内存硬�
 接着我们试着在 hmfs 文件系统挂载点下进行相关的文件测试。
 
 > mkdir dirtesta dirtestb dirtestc
+
 > touch ftesta ftestb ftestc
+
 > ll
 
 发现相应的目录和文件已经创建完毕。那么数据读写又表现如何呢？
 
 > echo "this is a good time." >> ftesta
+
 > touch dirtesta/infa | echo "inner write to file" >> infa
+
 > cat ftesta
+
 > cat dirtesta/infa
 
 那么在大量读写负载请求时 hmfs 又表现如何呢？
