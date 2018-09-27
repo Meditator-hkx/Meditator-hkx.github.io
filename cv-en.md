@@ -17,7 +17,7 @@ image: /img/characters/罗小黑.gif
 
 **Major** Computer Science
 
-**Academic Interest** *non-volatile memory management，in-memory DBMS，key-value store*
+**Academic Interest** *non-volatile memory management，in-memory DBMS，KV-Store*
 
 **Email** Kaixinhuang at sjtu dot edu dot cn
 
@@ -40,9 +40,13 @@ image: /img/characters/罗小黑.gif
 
 ------------------------------------------------------------------------------
 [1]	Kaixin Huang, Jie Zhou, Linpeng Huang, and Yanyan Shen, “NVHT: An efficient key–value storage library for non-volatile memory”. Journal of Parallel and Distributed Computing (2018),Volume 120, Pages 339-354, ISSN 0743-7315, https://doi.org/10.1016/j.jpdc.2018.02.013. 
+
 [2]	Kaixin Huang, Shengan Zheng, Yanyan Shen, Yanmin Zhu, and Linpeng Huang,  An Adaptive Eviction Framework for Anti-caching Based In-Memory Databases”. International Conference on Database Systems for Advanced Applications (pp. 247-263). Springer, Cham, https://doi.org/10.1007/978-3-319-91458-9_15
+
 [3]	Haixin Huang, Kaixin Huang, Litong You and Linpeng Huang, “ Forca: Fast and Atomic Remote Direct Access to Persistent Memory”. International Conference on Computer Design (accepted but currently not published)
+
 [4]	Yijie Mei, Kaixin Huang, Yanmin Zhu and Linpeng Huang, “Statistical Monitoring for NVM Write”. International Conference on Parallel and Distributed Systems (accepted but currently not published)
+
 [5]	Kaixin Huang, Haixin Huang, and Linpeng Huang, “A Novel Hybrid Memory Management System based on Non-Volatile Memory”, National Software Application Conference (accepted but currently not published)
 
 ------------------------------------------------------------------------------
