@@ -3,7 +3,11 @@ layout: post
 published: true
 title: 滴水湖与面试与王妃家烤肉
 subtitle: 现在的我是一个幸福的人
-date: 2023-06-13
+tags:
+ - 工作
+ - 面试
+ - 思考
+ - 宗教
 image: /img/characters/罗小黑.gif
 ---
 
