@@ -19,6 +19,7 @@ use-site-title: true
 	- [缔结契约：论工作与管理](2017-10-19-chickensoup-yuxu)
 	- [一串灰暗的梦](2018-01-02-dream)
 	- [黑夜惊魂](2018-03-18-dream)
+   	- [滴水湖与面试与王妃家烤肉](2023-06-13-interview-chat)
 
 - [动漫点评](comic-index)
 - [汽车保险](2018-06-28-insurance)
